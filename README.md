@@ -1,2 +1,2 @@
 # tsawebsite.github.io
-# This is the repository for the TSA website. 
+ Repository for the TSA website. 
