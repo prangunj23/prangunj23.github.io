@@ -1,1 +1,48 @@
 <!-- Need a form for Physicians -->
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('#submit1').onsubmit = function() {
+      let work = document.querySelector('#datesubmit').value;
+      document.querySelector('#date').innerHTML = work;
+
+
+      return false;
+    };
+
+    document.querySelector('#submit2').onsubmit = function() {
+      let work = document.querySelector('#namesubmit').value;
+      document.querySelector('#name').innerHTML = work;
+
+
+      return false;
+    };
+  });
+</script>
+  </head>
+  <body>
+    <form id="submit1">
+      <input type="text" id="datesubmit">
+      <input type="submit">
+    </form>
+    <form id="submit2">
+      <input type="text" id="namesubmit">
+      <input type="submit">
+      <table>
+      <tr>
+        <th>Date</th>
+        <th>Name</th>
+        </tr>
+        <tr>
+          <td id="date"></td>
+          <td id="name"></td>
+        </tr>
+    </body>
+    </html>
