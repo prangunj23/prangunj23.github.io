@@ -9,19 +9,10 @@
     color: #333333;
 }
 
-.navbar-brand {
-      padding: 5px;
-
-    }
-
-.header  {
-      background-color: dodgerblue;
-    }
 ****/
-
 .nav-menu-top {
     border-bottom: 1px solid rgba(217, 217, 217, 1);
-    padding: 0;
+    padding: 3;
 }
 
 .nav-menu-top .nav-link {
