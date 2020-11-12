@@ -18,3 +18,14 @@
       background-color: dodgerblue;
     }
 ****/
+
+.nav-menu-top {
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+    padding: 0;
+}
+
+.nav-menu-top .nav-link {
+    font-size: 13px;
+    color: rgb(0,0,0, 1) !important; 
+    padding: 0 30px 0 0 !important;
+}
