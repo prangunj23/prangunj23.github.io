@@ -1,3 +1,14 @@
+/** body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    background: #fff;
+    letter-spacing: 0.4px;
+    overflow-x: hidden;
+    color: #333333;
+}
+
 .navbar-brand {
       padding: 5px;
 
