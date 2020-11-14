@@ -30,6 +30,7 @@
 
 .loginbutton {
   font-family: 'Inter', sans-serif;
+  font-weight: bold;  
   background-color: #fff;
   border: 2.5px solid black;
   color: black;
