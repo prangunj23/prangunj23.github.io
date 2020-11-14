@@ -31,7 +31,7 @@
 .loginbutton {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #fff;
   border: 2.5px solid black;
   color: black;
@@ -46,4 +46,25 @@
 
 .loginbutton:hover {
   background-color: #07a5f0;
+}
+
+
+.signupbutton {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color:#07a5f0;
+  border: 2.5px solid #07a5f0;
+  color: white;
+  padding: 3.5px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.signupbutton:hover {
+  background-color: #fff;
 }
