@@ -28,3 +28,18 @@
     font-weight: bold;
 }
 
+.navbar { 
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    background-color:transparent;
+    position:fixed;
+    transition:background-color 1s ease;
+}
+
+
+.navbar.solid {
+    background-color:#000;
+    transition:background-color 1s ease;
+}
