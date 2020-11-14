@@ -45,7 +45,7 @@
 }
 
 .loginbutton:hover {
-  background-color: #07a5f0;
+  /*** background-color: #07a5f0; ***/
 }
 
 
@@ -66,5 +66,5 @@
 }
 
 .signupbutton:hover {
-  background-color: #fff;
+  /*** Do something here lol idk background-color: #fff; ***/
 }
