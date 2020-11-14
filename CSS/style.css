@@ -31,7 +31,7 @@
 .loginbutton {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   background-color: #fff;
   border: 2.5px solid black;
   color: black;
@@ -52,7 +52,7 @@
 .signupbutton {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   background-color:#07a5f0;
   border: 2.5px solid #07a5f0;
   color: white;
