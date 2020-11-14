@@ -45,9 +45,10 @@ body {
 }
 
 .loginbutton:hover {
-  background-color: #ddd;
+    text-decoration: underline
+ /* background-color: #ddd;
   border: 2.5px solid transparent;
-  border-radius: 16px;
+  border-radius: 16px; */
 }
 
 
