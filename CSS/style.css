@@ -14,7 +14,7 @@
 /***body {
     font-family: 'Inter', sans-serif;
 } ***/
-nav-menu-top .nav-item active .nav-link{
+.nav-menu-top .nav-item active .nav-link{
     color: #07a5f0 !important;
     font-family: 'Inter', sans-serif;   
 }
