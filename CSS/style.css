@@ -66,5 +66,5 @@ body {
 }
 
 .signupbutton:hover {
-  /*** Do something here lol idk background-color: #fff; ***/
+  border: #000000
 }
