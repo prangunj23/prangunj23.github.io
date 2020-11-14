@@ -32,8 +32,8 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 14px;
-  background-color: #fff;
-  border: 2.5px solid black;
+  background-color: #ddd;
+  border: 2.5px solid transparent;
   color: black;
   padding: 3.5px 35px;
   text-align: center;
@@ -45,7 +45,8 @@ body {
 }
 
 .loginbutton:hover {
-  /*** background-color: #07a5f0; ***/
+  border: 2.5px solid #000000;
+  border-radius: 16px;
 }
 
 
