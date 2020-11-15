@@ -33,7 +33,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   background-color: #fff;
-  border: 2.5px solid black;
+  border: 2.5px solid #ddd;
   color: black;
   padding: 3.5px 35px;
   text-align: center;
@@ -45,10 +45,8 @@ body {
 }
 
 .loginbutton:hover {
-    text-decoration: underline
- /* background-color: #ddd;
-  border: 2.5px solid transparent;
-  border-radius: 16px; */
+  border: 2.5px solid black;
+  border-radius: 16px; 
 }
 
 
