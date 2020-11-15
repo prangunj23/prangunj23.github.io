@@ -39,6 +39,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  outline:none; 
   margin: 4px 10px;
   cursor: pointer;
   border-radius: 16px;
@@ -61,6 +62,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  outline:none; 
   margin: 4px 10px;
   cursor: pointer;
   border-radius: 16px;
