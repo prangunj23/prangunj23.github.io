@@ -21,7 +21,7 @@ body {
 
 .nav-menu-top {
     border-bottom: 1px solid rgba(217, 217, 217, 1);
-    padding: 0px;
+    padding: 10px;
 }
 
 .nav-menu-top .nav-link {
