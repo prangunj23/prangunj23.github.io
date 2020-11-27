@@ -84,10 +84,19 @@ body {
     outline: none;
 }
 
-.mainbanner {
+.hero {
     font-family: 'Inter', sans-serif;
-    padding-top: 150px;
+    background-color: #fed9ff;
+    width: 600px;
+    height: 1500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+    
+    /***padding-top: 150px;
     padding-bottom: 150px;
     padding-right: 150px;
-    padding-left: 150px;
+    padding-left: 150px; ***/
+    
 }
