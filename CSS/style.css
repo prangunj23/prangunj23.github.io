@@ -54,6 +54,9 @@ body {
   border-radius: 16px; 
 }
 
+.loginbutton:focus {
+    outline: none;
+}
 
 .signupbutton {
   font-family: 'Inter', sans-serif;
@@ -75,4 +78,8 @@ body {
 .signupbutton:hover {
   border: 2.5px solid #000000;
   border-radius: 16px;
+}
+
+.signupbutton:focus {
+    outline: none;
 }
