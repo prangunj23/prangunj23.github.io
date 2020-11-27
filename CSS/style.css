@@ -83,3 +83,11 @@ body {
 .signupbutton:focus {
     outline: none;
 }
+
+.mainbanner {
+    font-family: 'Inter', sans-serif;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
