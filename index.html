@@ -52,50 +52,69 @@
         <span class="navbar-toggler-icon"></span>
     </button>
           
-          
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-  <ul class="ml-auto navbar navbar-nav my-2 my-sm-0">
-    
-      <!-- Home -->
-  <li class="nav-item active">
+    <div class="container">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+
+
+
+    <!-- ul Class begins -->
+     <ul class="navbar navbar-nav my-2 my-sm-0">
+
+       <!-- Home -->
+      <li class="nav-item active">
         <a class="nav-link" href="https://medicomm.org">Home <span class="sr-only">(current)</span></a>
       </li>
+
+
           <!-- About Us -->
+
         <li class="nav-item dropdown">
-            <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Who We Are</a>
+                <a class="dropdown-item" href="#">Partners</a>
+          </div>
          </li>
+
           <!--- Products -->
           <li class="nav-item">
               <a class="nav-link" href="/Products/Products.html">Products</a>
           </li>
+
           <!--- Services -->
           <li class="nav-item">
               <a class="nav-link" href="/Services/Services.html">Services</a>
           </li>
+
           <!--- Contact -->
           <li class="nav-item">
               <a class="nav-link" href="Contacts/Contacts.html">Contact</a>
           </li>
-      
-      <!-- Log In --> 
+
+          <!-- Log In -->
           <li class="nav-item">
               <button class="loginbutton">Log In</button>
-             
+              <!-- <a class="nav-link" href="#">Log In</a> -->
           </li>
-         <!-- Sign Up -->
+
+          <!-- Sign Up -->
           <li class="nav-item">
               <button class="signupbutton" onclick="window.location.href='/SignUp/SignUp.html'">Join Us</button>
-              
-          </li> 
-</ul>
+              <!-- <a class="nav-link" href="/SignUp/SignUp.html">Sign Up</a> -->
+          </li>
+
+      <!-- ul Class ends -->
+    </ul>
 
 
-
-    
- </div> 
 </div>
-</nav>
+ </div>
+ </nav>
 
           
     
