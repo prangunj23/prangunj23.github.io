@@ -24,6 +24,7 @@ Medicomm Telecommunications Comapny
 ### General todo list
 
 - [ ] Hero area
+- [ ] Footer area area
 
 ### Bugs2Fix list
 - [x] Fix [thing]
