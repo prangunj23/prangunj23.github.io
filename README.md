@@ -26,6 +26,7 @@ Medicomm Telecommunications Comapny
 - [ ] Hero area
 - [ ] Footer area 
 - [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
+- [ ] Design the 404 page, maybe image of an magnifying glass
 
 ### Bugs2Fix list
 - [x] Fix [thing]
