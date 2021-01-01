@@ -30,4 +30,4 @@ Medicomm Telecommunications Comapny
 ### Bugs2Fix list
 - [x] Fix [thing]
 - [ ] Fix navbar on each page!
-- [x] When we have the <code><br><code>
+- [x] When we have the <code><br></code>
