@@ -13,8 +13,6 @@ Medicomm Telecommunications Comapny
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
 
-- [x] Rename those [navbarpage].html to index.html
-
 ### CSS todo list
 - [ ] Ensure fonts are all the same
 - [ ] Add/make fade in animations
@@ -33,4 +31,5 @@ Medicomm Telecommunications Comapny
 - [ ] Fix navbar on each page!
 - [ ] When we have the multiple <code>br</code> tags, the navbar shifts for the ones that don't. <b> So basically alter the CSS to elongate the page vertically</b>
 - [x] Fix [thing]
+- [x] Fixed~ <i>Had to rename those [navbarpage].html to index.html, as there were frequent bugs with the filepaths</i>. Also more efficient this way -toba
 - [x] Fixed~ Products going to Contacts generates a filepath error...
