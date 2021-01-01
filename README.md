@@ -25,8 +25,6 @@ Medicomm Telecommunications Comapny
 
 - [ ] Hero area
 
-<br><br><br><br><br><br><br><br>
-
 ### Bugs2Fix list
 - [x] Fix [thing]
 - [ ] Fix navbar on each page!
