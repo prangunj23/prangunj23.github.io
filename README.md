@@ -28,7 +28,7 @@ Medicomm Telecommunications Comapny
 - [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
 - [ ] Design the 404 page, maybe image of an magnifying glass
 
-### Bugs2Fix list
+### Bugs2Fix 
 
 - [ ] Fix navbar on each page!
 - [ ] When we have the multiple <code>br</code> tags, the navbar shifts for the ones that don't. <b> So basically alter the CSS to elongate the page vertically</b>
