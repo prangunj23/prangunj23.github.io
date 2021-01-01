@@ -12,7 +12,8 @@ Medicomm Telecommunications Comapny
 - [ ] Add rel canonical to avoid duplicate content.  
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
-- [x] Fix navbar on each page!
+- [ ] Fix navbar on each page!
+- [x] Rename those [navbarpage].html to index.html
 
 ### CSS todo list
 - [ ] Ensure fonts are all the same
