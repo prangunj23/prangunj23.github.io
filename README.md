@@ -24,7 +24,8 @@ Medicomm Telecommunications Comapny
 ### General todo list
 
 - [ ] Hero area
-- [ ] Footer area area
+- [ ] Footer area 
+- [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
 
 ### Bugs2Fix list
 - [x] Fix [thing]
