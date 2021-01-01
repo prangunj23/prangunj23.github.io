@@ -10,18 +10,16 @@ Medicomm Telecommunications Comapny
 - [ ] Add favicons/apple web meta/windows tiles to each page
 - [ ] Ensure all CSS files are loaded before any JavaScript files in the HEAD
 - [ ] Add rel canonical to avoid duplicate content.  
-- [ ] Hero area
-- [ ] Add/make fade in animations
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
-- [ ] Link checker: There are no broken links in my page, verify that you don't have any 404 error.
+- [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
 - [x] Fix [thing]
 
 ### CSS todo list
+- [ ] Ensure fonts are all the same
+- [ ] Add/make fade in animations
+- [x] Fix [thing]
 
 
+### General todo list
 
-### Long term todo list
-
-- [ ] More blog posts
-- [ ] Google tag manager
-- [ ] More visual content for each project page in markdown
+- [ ] Hero area
