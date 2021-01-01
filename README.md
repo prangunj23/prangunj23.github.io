@@ -23,3 +23,7 @@ Medicomm Telecommunications Comapny
 ### General todo list
 
 - [ ] Hero area
+
+<br><br><br><br><br><br><br><br>
+
+### Donezo list
