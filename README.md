@@ -30,4 +30,4 @@ Medicomm Telecommunications Comapny
 ### Bugs2Fix list
 - [x] Fix [thing]
 - [ ] Fix navbar on each page!
-- [x] When we have the <code>"<br>"</code>
+- [ ] When we have the multiple <code>"br"</code>s, the navbar shifts, so basically alter the css to elongate the page
