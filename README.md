@@ -32,3 +32,4 @@ Medicomm Telecommunications Comapny
 - [x] Fix [thing]
 - [ ] Fix navbar on each page!
 - [ ] When we have the multiple <code>br</code> tags, the navbar shifts for the ones that don't. <b> So basically alter the CSS to elongate the page </b>
+- [ ] Products going to Contacts generates a filepath error...
