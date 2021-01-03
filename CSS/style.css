@@ -19,7 +19,9 @@
     padding-left: 50px;
 }  ***/
 
-
+body{
+    min-height:10000vh;
+}
 .nav-menu-top {
     border-bottom: 1px solid rgba(217, 217, 217, 1);
     padding: 10px;
