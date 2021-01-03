@@ -2,10 +2,12 @@
 
 .hero-section {
     height: 100%;
-    padding-top: 150px;
+    /*** padding-top: 150px; ***/
     align-content: left;
     text-align: left;
     background: #fff;
+    top: 80.5%;
+    left: 5.5%;
 }
 
 .about-section {
