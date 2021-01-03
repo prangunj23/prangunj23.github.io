@@ -16,6 +16,7 @@ Medicomm Telecommunications Comapny
 ### CSS todo list
 - [ ] Ensure fonts are all the same
 - [ ] Add/make fade in animations
+- [ ] We will have to eventually make css files for each page
 - [x] Fix [thing]
 
 
