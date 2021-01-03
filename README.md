@@ -29,6 +29,8 @@ Medicomm Telecommunications Comapny
 ### Bugs2Fix 
 
 - [ ] Fix navbar on each page!
+
+### Fixed bugs
 - [x] Fixed ~ (min-height: 1000vh;) When we have the multiple <code>br</code> tags, the navbar shifts for the ones that don't. <b> So basically alter the CSS to elongate the page vertically</b>
 - [x] Fix [thing]
 - [x] Fixed~ <i>Had to rename those [navbarpage].html to index.html, as there were frequent bugs with the filepaths</i>. More efficient this way
