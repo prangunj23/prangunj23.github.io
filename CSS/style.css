@@ -20,7 +20,7 @@
 }  ***/
 
 body {
-    min-height: 1000vh;
+    min-height: 500vh;
 }
 .nav-menu-top {
     border-bottom: 1px solid rgba(217, 217, 217, 1);
