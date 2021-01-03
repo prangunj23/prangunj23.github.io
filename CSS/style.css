@@ -44,6 +44,13 @@ html {
 .heroheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important;  
+  color: rgb(34, 34, 34);
+  display: block;
+  line-height: 53px;
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+  -webkit-box-direction: normal;
+  -webkit-font-smoothing: antialiased;    
 }
 
 
