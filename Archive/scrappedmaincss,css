@@ -18,4 +18,8 @@
     padding-right: 50px;
     padding-left: 50px;
 }  ***/
+/** body {
+    min-height: 500vh;
+} **/
+
 © 2021 GitHub, Inc.
