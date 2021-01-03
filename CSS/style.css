@@ -47,8 +47,6 @@ html {
   color: rgb(34, 34, 34);
   display: block;
   line-height: 53px;
-  vertical-align: baseline;
-  -webkit-box-direction: normal;
   -webkit-font-smoothing: antialiased;    
 }
 
