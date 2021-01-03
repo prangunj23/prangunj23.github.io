@@ -1,8 +1,8 @@
 /*** General CSS ***/
 
 .hero-section {
-    height: 100%;
-    padding-top: 165px;
+     height: 100%;
+   /*** padding-top: 165px; ***/
     align-content: left;
     text-align: left;
     background: #fff;
@@ -44,7 +44,15 @@ html {
 .heroheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important;  
-  color: rgb(84, 34, 34);
+  color: rgb(124, 34, 34);
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-size: auto;
    border-bottom-color: rgb(34, 34, 34);
    border-bottom-style: none;
    border-bottom-width: 0px;
@@ -64,6 +72,22 @@ html {
    border-top-width: 0px;
    box-sizing: border-box;
    display: block;
+line-height: 53px;
+margin-block-end: 0px;
+margin-block-start: 0px;
+margin-bottom: 0px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+outline-color: rgb(34, 34, 34);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
    text-align: left;
    text-size-adjust: 100%;
    vertical-align: baseline;
