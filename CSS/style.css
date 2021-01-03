@@ -2,7 +2,7 @@
 
 .hero-section {
     height: 100%;
-    padding-top: 250px;
+    padding-top: 150px;
     align-content: left;
     text-align: left;
     background: #fff;
@@ -17,7 +17,7 @@
 
 .services-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 150px;
     text-align: center;
     background: #fff;
 }
