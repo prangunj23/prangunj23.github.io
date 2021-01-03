@@ -43,7 +43,7 @@ html {
 
 .heroheader {
   font-family: 'Inter', sans-serif; 
-  font-weight: black;  
+  font-weight: 900 !important;  
 }
 
 
