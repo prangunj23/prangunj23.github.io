@@ -48,11 +48,10 @@ body {
 
 .nav-menu-top .nav-link {
     font-size: 16px;
-    color: rgb(0,0,0, 1)  !important; 
+    color: rgba(73, 80, 87, 0.5)  /*** !important***/; 
     padding: 0 20px 0 0 !important;
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 .loginbutton {
