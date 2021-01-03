@@ -44,10 +44,32 @@ html {
 .heroheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important;  
-  color: rgb(34, 34, 34);
-  display: block;
-  line-height: 53px;
-  -webkit-font-smoothing: antialiased;    
+  color: rgb(84, 34, 34);
+   border-bottom-color: rgb(34, 34, 34);
+   border-bottom-style: none;
+   border-bottom-width: 0px;
+   border-image-outset: 0;
+   border-image-repeat: stretch;
+   border-image-slice: 100%;
+   border-image-source: none;
+   border-image-width: 1;
+   border-left-color: rgb(34, 34, 34);
+   border-left-style: none;
+   border-left-width: 0px;
+   border-right-color: rgb(34, 34, 34);
+   border-right-style: none;
+   border-right-width: 0px;
+   border-top-color: rgb(34, 34, 34);
+   border-top-style: none;
+   border-top-width: 0px;
+   box-sizing: border-box;
+   display: block;
+   text-align left;
+   text-size-adjust: 100%;
+   vertical-align: baseline;
+    width: 686px;
+    -webkit-box-direction: normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 
