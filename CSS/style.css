@@ -51,6 +51,15 @@ html {
   vertical-align: baseline;
 }
 
+.herocontent {
+ font-family: 'Inter', sans-serif; 
+ font-weight: 400 !important;  
+ color: rgb(85, 85, 85);
+ display: block;
+ padding-bottom: 15px;
+ line-height: 53px;
+ vertical-align: baseline;
+}
 
 
 
