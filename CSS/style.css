@@ -6,6 +6,7 @@
     align-content: left;
     text-align: left;
     background: #fff;
+    width: 100% !important;
 }
 
 .about-section {
@@ -13,6 +14,7 @@
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    width: 100% !important;
 }
 
 .services-section {
@@ -20,6 +22,7 @@
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    width: 100% !important;
 }
 
 .contact-section {
@@ -27,6 +30,7 @@
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    width: 100% !important;
 }
 
 body {
