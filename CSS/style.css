@@ -44,7 +44,7 @@ html {
 .heroheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important;  
-  color: rgb(124, 34, 34);
+  color: rgb(34, 34, 34);
   display: block;
   padding-bottom: 15px;
   line-height: 53px;
@@ -79,7 +79,7 @@ border-top-style: none;
 border-top-width: 0px;
 box-sizing: border-box;
 height: 96px;
-width 686px;
+width: 686px;
 
 outline-color: rgb(85, 85, 85);
 outline-style: none;
