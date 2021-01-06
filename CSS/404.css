@@ -3,10 +3,18 @@ body {
     width: 100% !important;
     background-color: #d9d9d9;
 }
+.top {
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif; 
+    font-size: 37.5px !important;
+    font-weight: 400 !important;
+    color: rgb(115, 115, 115);
+    text-align: center;
+}
 .errorpage {
     background-color: #d9d9d9;
     padding-top: 200px;
-    text-align: center;   
+    text-align: center;
 }
 
 h1.lead {
