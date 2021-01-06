@@ -5,7 +5,6 @@ Medicomm Telecommunications Comapny
 
 ### HTML todo list
 
-- [ ] <b> Actually work on it lmao</b>
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
 - [ ] Make sure Error 404 page and 5xx exist
 - [ ] Add favicons/apple web meta/windows tiles to each page
