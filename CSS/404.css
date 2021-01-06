@@ -1,1 +1,7 @@
-
+.404page {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #d9d9d9;
+    width: 100% !important;
+}
