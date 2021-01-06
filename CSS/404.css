@@ -3,14 +3,14 @@ body {
     width: 100% !important;
     background-color: #d9d9d9;
 }
-.toplabel {
+/*** .toplabel {
     padding-top: 50px;
     font-family: 'Inter', sans-serif; 
     font-size: 18.75px !important;
     font-weight: 400 !important;
     color: rgb(115, 115, 115);
     text-align: center;
-}
+} ***/
 .errorpage {
     background-color: #d9d9d9;
     padding-top: 200px;
