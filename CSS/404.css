@@ -15,6 +15,7 @@ h1.lead {
     font-weight: 600 !important;
     color: rgb(115, 115, 115);
     display: block;
+    padding-bottom: 75px;
     height: 90px;
     letter-spacing: -2.7px;
     line-height: 90px;
