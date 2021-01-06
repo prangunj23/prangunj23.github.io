@@ -15,6 +15,7 @@ Medicomm Telecommunications Comapny
 - [ ] Keep or remove fixed navbar?
 
 ### CSS todo list
+- [ ] Make each page responsive.....
 - [ ] Ensure fonts are all the same
 - [ ] Add/make fade in animations
 - [ ] We will have to eventually make css files for each page
@@ -26,7 +27,6 @@ Medicomm Telecommunications Comapny
 - [ ] Hero area
 - [ ] Footer area 
 - [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
-- [ ] Design the 404 page, maybe image of an magnifying glass
 
 ### Bugs2Fix 
 
