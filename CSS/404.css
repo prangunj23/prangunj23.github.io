@@ -1,7 +1,52 @@
+body {
+    height: 100%;
+    width: 100% !important;
+    background-color: #d9d9d9;
+}
 .errorpage {
+    background-color: #d9d9d9;
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #d9d9d9;
     width: 100% !important;
+}
+
+h1.lead {
+    font-family: 'Inter', sans-serif; 
+    font-size: 90px !important;
+    font-weight: 600 !important;
+    color: rgb(115, 115, 115);
+    display: block;
+    height: 90px;
+    letter-spacing: -2.7px;
+    line-height: 90px;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+h2.explain {
+    font-family: 'Inter', sans-serif; 
+    font-size: 37.5px !important;
+    font-weight: 600 !important;
+    color: rgb(115, 115, 115);
+    display: block;
+    height: 45px;
+    letter-spacing: -1.125px;
+    line-height: 45px;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+.desc {
+    font-family: 'Inter', sans-serif; 
+    font-size: 18.75px !important;
+    font-weight: 400 !important;
+    color: rgb(115, 115, 115);  
+    display: block;
+    height: 28px;
+    line-height: 28.125px;
+    margin-bottom: 33.75px;
+    text-align: center;
+    text-size-adjust: 100%;
 }
