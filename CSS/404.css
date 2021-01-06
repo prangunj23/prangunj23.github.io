@@ -45,14 +45,15 @@ h2.explain {
     text-size-adjust: 100%;
 }
 
-.desc {
+h3.desc {
     font-family: 'Inter', sans-serif; 
     font-size: 18.75px !important;
     font-weight: 400 !important;
     color: rgb(115, 115, 115);  
     display: block;
     height: 28px;
-    line-height: 28.125px;
+    letter-spacing: -1.125px;
+    line-height: 28px;
     text-align: center;
     text-size-adjust: 100%;
 }
