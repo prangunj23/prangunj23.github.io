@@ -154,7 +154,7 @@ html {
 }
 
 .signupbutton:hover {
-  border: 2.5px solid #000000;
+  border: 2.5px solid black;
   border-radius: 16px;
 }
 
