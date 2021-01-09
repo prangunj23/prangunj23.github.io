@@ -1,5 +1,5 @@
 # prangunj23.github.io
-Medicomm Telecommunications Comapny
+Medicomm Telecommunications Company
 > Webmaster Team
 ---
 
