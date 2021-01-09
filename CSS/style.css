@@ -150,6 +150,7 @@ html {
   margin: 4px 10px;
   cursor: pointer;
   border-radius: 16px;
+  transition: .2s;  
 }
 
 .signupbutton:hover {
