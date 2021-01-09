@@ -123,11 +123,12 @@ html {
   margin: 4px 10px;
   cursor: pointer;
   border-radius: 16px;
+  transition: .2s;
 }
 
 .loginbutton:hover {
   border: 2.5px solid black;
-  border-radius: 16px; 
+  border-radius: 16px;   
 }
 
 .loginbutton:focus {
