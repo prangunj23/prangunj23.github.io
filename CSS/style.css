@@ -88,9 +88,20 @@ html {
     outline-width: 0px;    
 }
 
+.box-1 {
+    display: block;
+    font-weight: 400px;
+    height: 96px;
+    width:228px;
+    color: rgb(85, 90, 85);
+}
 
-
-
+.box-2 {
+    font-weight: 400px;
+    height: 96px;
+    width: 228px;
+    color: rgb(85, 90, 85);
+}
 
 
 /*** Navbar CSS ***/
