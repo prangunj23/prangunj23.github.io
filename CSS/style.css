@@ -119,6 +119,11 @@ html {
     font-weight: bold;  
 }
 
+.nav-menu-top .nav-link:hover {
+    transition: .2s;
+    color: #1a68e5;
+}
+
 .loginbutton {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
