@@ -117,10 +117,10 @@ html {
     padding: 0 20px 0 0 !important;
     font-family: 'Inter', sans-serif;
     font-weight: bold;  
+    transition: .2s;
 }
 
 .nav-menu-top .nav-link:hover {
-    transition: .2s;
     color: #1a68e5;
 }
 
