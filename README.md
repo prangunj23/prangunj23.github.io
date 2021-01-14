@@ -16,7 +16,6 @@ Medicomm Telecommunications Company
 ### CSS todo list
 - [ ] <b> Make each page responsive...</b> 
 - [ ] Ensure fonts are all the same
-- [ ] Add fade in animation library. Thinkin AOS.js
 - [ ] We will have to eventually make css files for each page
 - [x] Fix [thing]
 
