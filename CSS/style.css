@@ -10,9 +10,9 @@ html {
 }
 
 /*** Navbar CSS ***/
-}
+
 .nav-menu-top {
-    border-bottom: 1px solid rgba(217, 217, 217, 1);
+    /* border-bottom: 1px solid rgba(217, 217, 217, 1); */
     padding: 10px;
 }
 
