@@ -42,7 +42,7 @@ html {
 }
 
 .nav-item .nav-link:hover {
-  color: #1a68e5 !important;
+  color: #1a68e5 !important; /*** You can change the color here you guys want ***/
 }
 
 .nav-item .nav-link:hover::after {
