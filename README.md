@@ -7,6 +7,7 @@ Medicomm Telecommunications Company
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
 - [x] Make sure an Error 404 page exists
+> Also gotta make this responsive 
 - [ ] Add favicons/apple web meta/windows tiles to each page
 - [ ] Ensure all CSS files are loaded before any JavaScript files in the HEAD
 - [ ] Add rel canonical to avoid duplicate content.  
