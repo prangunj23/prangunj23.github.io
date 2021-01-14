@@ -9,8 +9,8 @@ html {
     height: 100%;
 }
 
-/*** Navbar CSS ***/
 
+/*** Navbar ***/
 .nav-menu-top {
     padding: 10px;
 }
@@ -103,8 +103,7 @@ html {
     outline: none;
 }
 
-/*** Hero Section CSS ***/
-
+/*** Hero Section ***/
 .hero-section {
     height: 100%;
     padding-top: 165px;
@@ -157,7 +156,7 @@ html {
     outline-width: 0px;    
 }
 
-/*** About Section CSS ***/
+/*** About Section ***/
 .about-section {
     height: 100%;
     padding-top: 150px;
@@ -167,7 +166,7 @@ html {
 }
 
 
-/*** Services Section CSS ***/
+/*** Services Section ***/
 .services-section {
     height: 100%;
     padding-top: 150px;
@@ -177,7 +176,7 @@ html {
 }
 
 
-/*** Contact Section CSS ***/
+/*** Contact Section ***/
 .contact-section {
     height: 70%;
     padding-top: 150px;
