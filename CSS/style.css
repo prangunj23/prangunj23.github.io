@@ -1,38 +1,4 @@
-/*** General CSS ***/
-
-.hero-section {
-    height: 100%;
-    padding-top: 165px;
-    align-content: left;
-    text-align: left;
-    background: #fff;
-    width: 100% !important;
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-    width: 100% !important;
-}
-
-.services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-    width: 100% !important;
-}
-
-.contact-section {
-    height: 70%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-    width: 100% !important;
-}
-
+/** Basic **/
 body {
     width: 100%;
     height: 100%;
@@ -42,67 +8,6 @@ html {
     width: 100%;
     height: 100%;
 }
-
-/*** Custom CSS ***/
-
-.heroheader {
-  font-family: 'Inter', sans-serif; 
-  font-weight: 900 !important;  
-  color: rgb(34, 34, 34);
-  display: block;
-  padding-bottom: 15px;
-  line-height: 53px;
-  vertical-align: baseline;
-}
-
-.herocontent {
-    font-family: 'Inter', sans-serif; 
-    font-weight: 400 !important;  
-    color: rgb(85, 85, 85);
-    display: block;
-    padding-bottom: 15px;
-    line-height: 24px;
-    vertical-align: baseline;
-    border-bottom-color: rgb(85, 85, 85);
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(85, 85, 85);
-    border-left-style: none;
-    border-left-width: 0px;
-    border-right-color: rgb(85, 85, 85);
-    border-right-style: none;
-    border-right-width: 0px;
-    border-top-color: rgb(85, 85, 85);
-    border-top-style: none;
-    border-top-width: 0px;
-    box-sizing: border-box;
-    height: 96px;
-    width: 686px;
-    outline-color: rgb(85, 85, 85);
-    outline-style: none;
-    outline-width: 0px;    
-}
-
-.box-1 {
-    display: block;
-    font-weight: 400px;
-    height: 96px;
-    width:228px;
-    color: rgb(85, 90, 85);
-}
-
-.box-2 {
-    font-weight: 400px;
-    height: 96px;
-    width: 228px;
-    color: rgb(85, 90, 85);
-}
-
 
 /*** Navbar CSS ***/
 }
@@ -178,4 +83,104 @@ html {
     outline: none;
 }
 
+/*** Hero Section CSS ***/
+
+.hero-section {
+    height: 100%;
+    padding-top: 165px;
+    align-content: left;
+    text-align: left;
+    background: #fff;
+    width: 100% !important;
+}
+
+.heroheader {
+  font-family: 'Inter', sans-serif; 
+  font-weight: 900 !important;  
+  color: rgb(34, 34, 34);
+  display: block;
+  padding-bottom: 15px;
+  line-height: 53px;
+  vertical-align: baseline;
+}
+
+.herocontent {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400 !important;  
+    color: rgb(85, 85, 85);
+    display: block;
+    padding-bottom: 15px;
+    line-height: 24px;
+    vertical-align: baseline;
+    border-bottom-color: rgb(85, 85, 85);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(85, 85, 85);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(85, 85, 85);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(85, 85, 85);
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    height: 96px;
+    width: 686px;
+    outline-color: rgb(85, 85, 85);
+    outline-style: none;
+    outline-width: 0px;    
+}
+
+/*** About Section CSS ***/
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    width: 100% !important;
+}
+
+
+/*** Services Section CSS ***/
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    width: 100% !important;
+}
+
+
+/*** Contact Section CSS ***/
+.contact-section {
+    height: 70%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+    width: 100% !important;
+}
+
+
+/*** Custom CSS ***/
+
+.box-1 {
+    display: block;
+    font-weight: 400px;
+    height: 96px;
+    width:228px;
+    color: rgb(85, 90, 85);
+}
+
+.box-2 {
+    font-weight: 400px;
+    height: 96px;
+    width: 228px;
+    color: rgb(85, 90, 85);
+}
 
