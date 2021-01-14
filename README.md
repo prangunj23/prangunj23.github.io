@@ -14,9 +14,9 @@ Medicomm Telecommunications Company
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
 
 ### CSS todo list
-- [ ] Make each page responsive.....
+- [ ] <b> Make each page responsive...<b> 
 - [ ] Ensure fonts are all the same
-- [ ] Add/make fade in animations
+- [ ] Add fade in animation library. Thinkin AOS.js
 - [ ] We will have to eventually make css files for each page
 - [x] Fix [thing]
 
