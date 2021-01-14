@@ -20,6 +20,9 @@ Medicomm Telecommunications Company
 - [ ] We will have to eventually make css files for each page
 - [x] Fix [thing]
 
+### JS todo list
+> We can make our page interactive with JS libraries
+
 
 ### General todo list
 
