@@ -113,7 +113,7 @@ html {
 
 .nav-menu-top .nav-link {
     font-size: 16px;
-    color: rgba(73, 80, 87, 0.5)  /*** !important***/; 
+    color: rgba(73, 80, 87, 0.5); 
     padding: 0 20px 0 0 !important;
     font-family: 'Inter', sans-serif;
     font-weight: bold;  
