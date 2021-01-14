@@ -12,21 +12,41 @@ html {
 /*** Navbar CSS ***/
 
 .nav-menu-top {
-    /* border-bottom: 1px solid rgba(217, 217, 217, 1); */
     padding: 10px;
 }
 
-.nav-menu-top .nav-link {
-    font-size: 16px;
-    color: rgba(73, 80, 87, 0.5); 
-    padding: 0 20px 0 0 !important;
+.nav-item .nav-link  {
     font-family: 'Inter', sans-serif;
-    font-weight: bold;  
-    transition: 1s ease;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: transparent;
+    padding-bottom: calc(1px * 2);
+    position: relative;
+    transition: .3s ease;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0);
 }
 
-.nav-menu-top .nav-link:hover {
-    color: #1a68e5 !important;
+.nav-item .nav-link::after {
+    display: block;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    transform-origin: bottom center;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: .3s ease;
+    content: "";
+}
+
+.nav-item .nav-link:hover {
+  color: #1a68e5 !important;
+}
+
+.nav-item .nav-link:hover::after {
+    transform: scaleX(.3);
 }
 
 .loginbutton {
