@@ -1,76 +1,8 @@
-  <!-- Need a form for Physicians -->
 <html>
 <head>
-  <link rel="stylesheet" href="../../Css/header.css">
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
-<script>
 
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('#submit').onsubmit = function() {
-      let x = document.querySelector('#namesubmit').value;
-
-    //  console.log(x);
-    //  document.querySelectorAll('select').forEach(function('option') {
-        if (document.querySelector('#times').value == "9:00 am") {
-          document.querySelector('#nineamname').innerHTML = x;
-        } else if (document.querySelector('#times').value == "10:00 am") {
-          document.querySelector('#tenamname').innerHTML = x;
-        } else {
-          document.querySelector('#elevenamname').innerHTML = x;
-        };
-      //  console.log(document.querySelector('#times').value);
-
-
-      return false;
-    };
-    /* document.querySelector('#submit').onsubmit = function() {
-      let work = document.querySelector('#namesubmit').value;
-      document.querySelector('#name').innerHTML = work;
-
-
-      return false;
-    }; */
-
-  });
-</script>
   </head>
   <body>
-    <div class="header">
-      <a href="../../index.html">Home</a>
-      <a href="../../Products/Products.html">Products</a>
-    <a href="../../Services/Services.html">Services</a>
-    </div>
-    <form id="submit">
-      <input type="text" id="namesubmit">
-      <input type="submit">
-    </form>
-    <br>
-    <select id="times">
-      <option data-time="9:00am" class="Name">9:00 am</option>
-      <option data-time="10:00am" class="Name">10:00 am</option>
-      <option data-time="11:00am" class="Name">11:00 am</option>
-    </select>
-      <br>
-      <table>
-      <tr>
-        <th>Time</th>
-        <th>Name</th>
-        </tr>
-        <tr>
-          <td>9:00am</td>
-          <td id="nineamname">Unnocupied Slot</td>
-        </tr>
-        <tr>
-          <td>10:00am</td>
-          <td id="tenamname">Unnocupied Slot</td>
-        </tr>
-        <tr>
-          <td>11:00am</td>
-          <td id="elevenamname">Unnocupied Slot</td>
-        </tr>
+   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjbcfA0jU4oP5D2xQmnXXZJs_7yTUmIvsPuezc7vFrtFkmWw/viewform?embedded=true" width="640" height="1294" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </body>
     </html>
