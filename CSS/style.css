@@ -27,9 +27,10 @@ html {
  }
 
 /*** Navbar ***/
-.nav-menu-top {
-    padding: 10px;
-}
+   .nav-menu-top {
+     padding-top: 75px;
+   }
+
 
 .nav-item .nav-link  {
     font-family: 'Inter', sans-serif;
