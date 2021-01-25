@@ -26,9 +26,6 @@ html {
    font-weight: 400px;
  }
 
-
-
-
 /*** Navbar ***/
    .nav-menu-top {
      padding-top: 25px;
@@ -122,9 +119,6 @@ html {
     outline: none;
 }
 
-
-
-
 /*** Hero Section ***/
 .hero-section {
     height: 100%;
@@ -157,32 +151,12 @@ html {
     font-weight: 400 !important;  
     color: rgb(85, 85, 85);
     display: block;
-    padding-bottom: 15px;
+    padding-top: 95px !important;
     line-height: 24px;
     vertical-align: baseline;
-    border-bottom-color: rgb(85, 85, 85);
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(85, 85, 85);
-    border-left-style: none;
-    border-left-width: 0px;
-    border-right-color: rgb(85, 85, 85);
-    border-right-style: none;
-    border-right-width: 0px;
-    border-top-color: rgb(85, 85, 85);
-    border-top-style: none;
-    border-top-width: 0px;
     box-sizing: border-box;
     height: 96px;
     width: 686px;
-    outline-color: rgb(85, 85, 85);
-    outline-style: none;
-    outline-width: 0px;    
 }
 
 
@@ -237,6 +211,7 @@ html {
     background-color: #fafbfc;
     width: 100% !important;
 }
+
 /*** About Section ***/
 .about-section {
     height: 100%;
