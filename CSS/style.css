@@ -26,6 +26,9 @@ html {
    font-weight: 400px;
  }
 
+
+
+
 /*** Navbar ***/
    .nav-menu-top {
      padding-top: 25px;
@@ -120,6 +123,9 @@ html {
     outline: none;
 }
 
+
+
+
 /*** Hero Section ***/
 .hero-section {
     height: 100%;
@@ -173,6 +179,9 @@ html {
     outline-width: 0px;    
 }
 
+
+
+
 /*** Hook Section ***/
 .hook-section {
      height: 63%;
@@ -211,6 +220,17 @@ html {
   background-color: #3755BE !important;
 }
 
+
+
+/*** Summary Section ***/
+.summary-section {
+    align-content: center;
+    height: 65%;
+    text-align: center;
+    margin: auto;
+    background-color: #fafbfc;
+    width: 100% !important;
+}
 /*** About Section ***/
 .about-section {
     height: 100%;
