@@ -200,7 +200,7 @@ html {
 /*** Summary Section ***/
 .summary-section {
     font-family: 'Inter', sans-serif;
-    height: auto;
+    height: 125%;
     width: 100% !important;
     margin: auto;
     background-color: #fafbfc;
