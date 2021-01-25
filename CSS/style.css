@@ -134,10 +134,10 @@ html {
   font-weight: 900 !important;  
   color: rgb(33, 37, 41);
   display: block;
-  padding-bottom: 25px;
   line-height: 53px;
   vertical-align: baseline;
   width: 686px; 
+  height: 350px;
 }
 
  .highlight {
