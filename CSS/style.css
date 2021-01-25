@@ -173,9 +173,9 @@ html {
     outline-width: 0px;    
 }
 
-/*** About Section ***/
+/*** Hook Section ***/
 .hook-section {
-    height: 63%;
+     height: 63%;
      padding-top: 150px;
      text-align: center;
      background-color: #3755BE;
