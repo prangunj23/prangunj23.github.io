@@ -214,7 +214,7 @@ html {
   margin: auto;
   color: rgb(33, 37, 41);
   display: block;
-  font-size: 48.5px;
+  font-size: 48.5px !important;
   height: 107px;
   letter-spacing: -1.575px;
   line-height: 57.75px;
