@@ -147,6 +147,7 @@ html {
 }
 
  .highlight {
+   color: #3755BE !important;
    background-color: rgba(211, 224, 237, 0.2);
    display: inline;
  }
