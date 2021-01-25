@@ -159,9 +159,6 @@ html {
     width: 686px;
 }
 
-
-
-
 /*** Hook Section ***/
 .hook-section {
      height: 63%;
@@ -200,17 +197,75 @@ html {
   background-color: #3755BE !important;
 }
 
-
-
 /*** Summary Section ***/
 .summary-section {
-    align-content: center;
+    font-family: 'Inter', sans-serif;
     height: 65%;
-    text-align: center;
+    width: 100% !important;
     margin: auto;
     background-color: #fafbfc;
-    width: 100% !important;
+    padding-top: 25px;
 }
+
+.summaryheader {
+  padding-top: 25px;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  color: rgb(33, 37, 41);
+  display: block;
+  font-size: 48.5px;
+  height: 107px;
+  letter-spacing: -1.575px;
+  line-height: 57.75px;
+}
+
+.summarydesc {
+  font-family:  'Inter', sans-serif; 
+  font-weight: 400 !important; 
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  margin: auto;
+  width: 836px;
+  text-align: center;
+  padding-bottom: 0px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+.card-title {
+  color: #ffffff !important;
+}
+.card-text {
+  font-weight: 600;
+  color: #ccdceb !important;
+}
+.card-hover {
+  background-color: #0275d8 !important;
+  transition: .4s;
+}
+
+.card-hover:hover svg {
+  transition: .4s;
+ fill: #fff !important;
+}
+   /*Card changes color on hover*/
+    .card-hover:hover {
+      background-color: #adadad !important;
+      color:white !important;
+      cursor:default;
+    }
+
+    /*Subtext changes on card hover*/
+    .card-hover:hover .text-muted{
+      color:white !important;
+    }
+
+    /*Icon changes on card hover*/
+    .card-hover:hover .bi{
+      color:white !important;
+    }
+
 
 /*** About Section ***/
 .about-section {
