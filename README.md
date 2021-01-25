@@ -15,6 +15,7 @@ Medicomm Telecommunications Company
 
 ### CSS todo list
 - [ ] <b> Make each page responsive...</b> 
+> This is going to be a bit of a pain, so  I'll need to get started early -tob
 - [ ] Ensure fonts are all the same
 - [ ] We will have to eventually make css files for each page
 - [x] Fix [thing]
