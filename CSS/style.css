@@ -209,12 +209,12 @@ html {
 
 .summaryheader {
   padding-top: 5px;
-  font-weight: 900;
+  font-weight: 600;
   text-align: center;
   margin: auto;
   color: #3755BE !important;
   display: block;
-  font-size: 48.5px !important;
+  font-size: 52.5px !important;
   height: 107px;
   letter-spacing: -1.575px;
   line-height: 57.75px;
