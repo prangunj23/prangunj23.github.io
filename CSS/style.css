@@ -186,7 +186,7 @@ html {
    font-weight: 900 !important;
    font-size: 46px;
    color: #fff;
-   margin: auto;
+   margin: auto !important;
    text-align: center;
    display: block;
    height: 85px;
@@ -200,11 +200,9 @@ html {
    font-weight: 400 !important;
    font-size: 16px;
    color: #fff;
-   margin: auto;
+   margin: auto !important;
    width: 836px;
    text-align: center;
-   margin-top: 0;
-   padding-bottom: 0px;
    line-height: 32px;
    vertical-align: middle;
  }
