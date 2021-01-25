@@ -212,7 +212,7 @@ html {
   font-weight: 900;
   text-align: center;
   margin: auto;
-  color: rgb(33, 37, 41);
+  color: #3755BE !important;
   display: block;
   font-size: 48.5px !important;
   height: 107px;
