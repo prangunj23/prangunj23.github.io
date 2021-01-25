@@ -208,6 +208,11 @@ html {
    line-height: 32px;
    vertical-align: middle;
  }
+
+.hooksvg {
+  background-color: #eb8d3b !important;
+}
+
 /*** About Section ***/
 .about-section {
     height: 100%;
