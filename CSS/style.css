@@ -233,6 +233,10 @@ html {
   vertical-align: middle;
 }
 
+.p-2{
+ border-radius: 15px !important;
+}
+
 .card-title {
   color: #ffffff !important;
 }
