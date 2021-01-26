@@ -27,6 +27,14 @@ html {
    font-weight: 400px;
  }
 
+.badge {
+  display: inline;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #3755be;
+  vertical-align: middle;
+  letter-spacing: .17px;
+}
 /*** Navbar ***/
    .nav-menu-top {
      padding-top: 25px;
