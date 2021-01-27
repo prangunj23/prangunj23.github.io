@@ -12,7 +12,7 @@ Medicomm Telecommunications Company
 ### CSS todo list
 - [ ] Make each page responsive...
 > Landing page, 404 page,
-- [ ] Ensure fonts are all the same
+- [ ] Page transitions
 - [ ] We will eventually have to make css files for each page
 
 ### JS todo list
