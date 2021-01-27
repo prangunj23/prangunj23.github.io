@@ -1,6 +1,6 @@
 # prangunj23.github.io
 Medicomm Telecommunications Company
-> Webmaster Team
+
 ---
 
 ### HTML todo list
