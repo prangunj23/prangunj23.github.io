@@ -196,7 +196,7 @@ html {
      background-color: #3755BE;
      width: 100% !important;
 }
-.hookheader {
+.hookheader {  
    font-family: 'Inter', sans-serif;
    font-weight: 900 !important;
    font-size: 46px;
@@ -209,8 +209,8 @@ html {
    line-height: 53px;
    vertical-align: middle;
  }
-
- .hookdesc {
+.hookdesc {
+ 
    font-family: 'Inter', sans-serif;
    font-weight: 400 !important;
    font-size: 16px;
@@ -221,7 +221,9 @@ html {
    line-height: 32px;
    vertical-align: middle;
  }
-
+@media only screen and (max-width: 600px) {
+    overflow-wrap: break-word;
+}
 .hooksvg {
   background-color: #3755BE !important;
 }
