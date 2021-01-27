@@ -25,6 +25,7 @@ Medicomm Telecommunications Company
 ### General todo list
 
 - [x] Hero area
+> add 2 buttons at the bottom of description
 - [ ] Footer area 
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
