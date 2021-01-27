@@ -26,7 +26,8 @@ Medicomm Telecommunications Company
 
 - [x] Hero area
 - [ ] Footer area 
-- [ ] Back to top arrow.
+- [ ] Back to top arrow
+- [ ] Page loader animation maybe?
 - [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
 
 ### Bugs2Fix 
