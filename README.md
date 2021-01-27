@@ -6,16 +6,14 @@ Medicomm Telecommunications Company
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
-- [x] Make sure an Error 404 page exists
-> Landing page, 404 page,
-- [ ] Add favicons/apple web meta/windows tiles to each page
 - [ ] Ensure all CSS files are loaded before any JavaScript files in the HEAD
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
+- [x] Make sure an Error 404 page exists
 
 ### CSS todo list
 - [ ] <b> Make each page responsive...</b> 
-> as well as error404 page
+> Landing page, 404 page,
 - [ ] Ensure fonts are all the same
 - [ ] We will have to eventually make css files for each page
 - [x] Fix [thing]
