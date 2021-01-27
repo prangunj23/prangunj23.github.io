@@ -270,6 +270,11 @@ html {
   line-height: 32px;
   vertical-align: middle;
 }
+@media all and (max-width: 600px) {
+    .summarydesc {
+        word-wrap: break-word;
+    }
+}
 
 .p-2{
  border-radius: 15px !important;
