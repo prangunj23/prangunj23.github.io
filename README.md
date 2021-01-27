@@ -10,7 +10,7 @@ Medicomm Telecommunications Company
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
 
 ### CSS todo list
-- [ ] <b> Make each page responsive...</b> 
+- [ ] Make each page responsive...
 > Landing page, 404 page,
 - [ ] Ensure fonts are all the same
 - [ ] We will eventually have to make css files for each page
