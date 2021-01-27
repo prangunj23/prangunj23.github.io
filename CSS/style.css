@@ -168,6 +168,10 @@ html {
     width: 686px;
 }
 
+.medicomm {
+    font-weight: 600 !important;
+    color: #3755BE !important;
+}
 /*** Hook Section ***/
 .hook-section {
      height: 63%;
