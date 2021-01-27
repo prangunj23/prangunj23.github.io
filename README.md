@@ -15,7 +15,7 @@ Medicomm Telecommunications Company
 - [ ] <b> Make each page responsive...</b> 
 > Landing page, 404 page,
 - [ ] Ensure fonts are all the same
-- [ ] We will have to eventually make css files for each page
+- [ ] We will eventually have to make css files for each page
 - [x] Fix [thing]
 
 ### JS todo list
