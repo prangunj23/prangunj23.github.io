@@ -6,10 +6,10 @@ Medicomm Telecommunications Company
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
-- [ ] Ensure all CSS files are loaded before any JavaScript files in the HEAD
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
-- [x] Make sure an Error 404 page exists
+- [x] ~~Make sure an Error 404 page exists~~
+- [x] ~~Ensure all CSS files are loaded before any JavaScript files in the HEAD~~
 
 ### CSS todo list
 - [ ] <b> Make each page responsive...</b> 
