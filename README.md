@@ -8,15 +8,12 @@ Medicomm Telecommunications Company
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
-- [x] ~~Make sure an Error 404 page exists~~
-- [x] ~~Ensure all CSS files are loaded before any JavaScript files in the HEAD~~
 
 ### CSS todo list
 - [ ] <b> Make each page responsive...</b> 
 > Landing page, 404 page,
 - [ ] Ensure fonts are all the same
 - [ ] We will eventually have to make css files for each page
-- [x] Fix [thing]
 
 ### JS todo list
 > We can make our page interactive with JS libraries
