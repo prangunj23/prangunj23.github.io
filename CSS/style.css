@@ -232,10 +232,11 @@ html {
 }
 .hooksvg {
   background-color: #3755BE !important;
+  outline: none !important; 
 }
 
 .hooksvg:focus {
-    outline: none;
+    outline: none !important;
 }
 
 /*** Summary Section ***/
