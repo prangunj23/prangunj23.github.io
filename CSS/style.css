@@ -234,6 +234,10 @@ html {
   background-color: #3755BE !important;
 }
 
+.hooksvg:focus {
+    outline: none;
+}
+
 /*** Summary Section ***/
 .summary-section {
     font-family: 'Inter', sans-serif;
