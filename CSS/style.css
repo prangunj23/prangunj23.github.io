@@ -386,9 +386,7 @@ html {
 
 /** Responsive items made so far **/
 @media (max-width: 1199px) {
-  body {
-    background-color: gray !important;
-  }
+
   .heroheader, .herocontent {
      width: 500px;   
   } 
@@ -403,9 +401,7 @@ html {
 }
 
 @media (max-width: 992px) {
-body {
-    background-color: red !important;
-  }
+
   .hero-section {
     height: 125%;
   }
@@ -427,9 +423,7 @@ body {
       overflow-x: hidden;
      overflow-y: scroll; 
   }
-  body {
-    background-color: purple !important;
-  }
+
   .hookheader {
     font-size: 37px;
   }
@@ -453,9 +447,6 @@ body {
   }
 }
 @media (max-width: 768px) {
-  body {
-    background-color: pink !important;
-  }
   .hero-section {
     height: auto;
   }
@@ -471,16 +462,9 @@ body {
     display: block;
   }
 }
-@media (max-width: 700px) {
-  body {
-    background-color: green !important;
-  }
-}
+
 
 @media (max-width: 686px) {
-  body {
-    background-color: orange !important;
-  }
   .hookheader {
     margin-left: 0% !important;
     width: auto;
@@ -499,9 +483,6 @@ body {
 
 
 @media (max-width: 487px) {
-  body {
-    background-color: blue !important;
-  }
   .heroheader {
     font-size: 36px;
   }
@@ -511,9 +492,6 @@ body {
 }
 
 @media (max-width: 403px) {
-  body {
-    background-color: teal !important;
-  }
   .heroheader {
     font-size: 28px !important;
   }
