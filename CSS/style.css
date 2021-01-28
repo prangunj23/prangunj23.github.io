@@ -362,7 +362,7 @@ html {
 }
 
 /** Responsive items made so far **/
-
+/*
     @media all and (max-width: 800px) {
       .display-4{
         font-size:45px !important;
@@ -381,4 +381,155 @@ html {
 
 .p-2{
  border-radius: 15px !important;
-}  
+}  */
+
+
+/** Responsive items made so far **/
+@media (max-width: 1199px) {
+  body {
+    background-color: gray !important;
+  }
+  .heroheader, .herocontent {
+     width: 500px;   
+  } 
+  .hookheader {
+    font-size: 44px;
+    height: 150px;
+    width: 686px;
+  }
+  .hookdesc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+body {
+    background-color: red !important;
+  }
+  .hero-section {
+    height: 125%;
+  }
+   .heroheader, .herocontent {
+     width: auto;   
+  } 
+  .hookheader {
+    font-size: 44px;
+    height: 150px;
+
+  }
+  .hookdesc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 852px) {
+  html {
+      overflow-x: hidden;
+     overflow-y: scroll; 
+  }
+  body {
+    background-color: purple !important;
+  }
+  .hookheader {
+    font-size: 37px;
+  }
+  .hookdesc {
+    width: 686px;
+    font-size: 15px;
+  }
+  .summarydesc {
+    width: 500px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .col-50 {
+    display: inline;
+  }
+  .hookdesc {
+    width: 600px !important;
+    font-size: 14px;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: pink !important;
+  }
+  .hero-section {
+    height: auto;
+  }
+  .heroheader {
+    height: 300px;
+  }
+  .col-50 {
+    display: inline;
+  }
+  .hookdesc {
+    width: 600px !important;
+    font-size: 14px;
+    display: block;
+  }
+}
+@media (max-width: 700px) {
+  body {
+    background-color: green !important;
+  }
+}
+
+@media (max-width: 686px) {
+  body {
+    background-color: orange !important;
+  }
+  .hookheader {
+    margin-left: 0% !important;
+    width: auto;
+  }
+  .hookdesc {
+    margin: auto;
+    width: 400px !important;
+  }
+  .summarydesc {
+    margin: 10px;
+    width: auto;
+  }
+}
+
+
+
+
+@media (max-width: 487px) {
+  body {
+    background-color: blue !important;
+  }
+  .heroheader {
+    font-size: 36px;
+  }
+  .hookheader {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 403px) {
+  body {
+    background-color: teal !important;
+  }
+  .heroheader {
+    font-size: 28px !important;
+  }
+  .hero-section {
+    height: 150%;
+  }
+  .herocontent {
+    padding-bottom: 150px;
+  }
+  .hook-section {
+    height: 85%;
+  }
+  .hookheader {
+    height: 200px;
+  }
+  .hookdesc {
+    width: 300px !important;
+  }
+}
