@@ -2,6 +2,7 @@
 Medicomm Telecommunications Company
 
 ---
+frequently format code to look tidy
 
 ### HTML todo list
 
