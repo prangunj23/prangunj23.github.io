@@ -13,11 +13,16 @@ frequently format code to look tidy
 ### CSS todo list
 - [ ] Make each page responsive...
 > Landing page, 404 page,
-- [ ] Page transitions
 - [ ] We will eventually have to make css files for each page
 
-### JS todo list
-> We can make our page interactive with JS libraries
+### JS todo list/plans
+> Later combine scripts into one js document I think
+- [ ] Preloader
+- [ ] Back-to-top (circle w/ up arrow) button
+- [ ] Page fade transition
+- [ ] plugin to sort articles (ik)
+- [ ] countup.js
+- [ ] Testimonials carousel (maybe owl carousel)
 
 
 ### General todo list
