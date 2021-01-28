@@ -14,6 +14,7 @@ frequently format code to look tidy
 - [ ] Make each page responsive...
 > Landing page, 404 page,
 - [ ] We will eventually have to make css files for each page
+- [ ] *animate.css* maybe so far.... will check later
 
 ### JS todo list/plans
 > Later combine scripts into one js document I think
