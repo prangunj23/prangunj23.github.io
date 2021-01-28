@@ -22,3 +22,24 @@
     min-height: 500vh;
 } **/
 
+/** Responsive items made so far **/
+/*
+    @media all and (max-width: 800px) {
+      .display-4{
+        font-size:45px !important;
+      }
+      .container{
+        padding:15px 15px !important;
+      }
+      .container-fluid{
+        padding:25px 25px !important;
+      }
+    }
+
+.card-deck {
+  margin-bottom: 50px !important;
+}
+
+.p-2{
+ border-radius: 15px !important;
+}  */
