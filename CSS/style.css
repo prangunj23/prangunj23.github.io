@@ -423,7 +423,13 @@ html {
   box-shadow: 0 0 11px rgba(33,33,33,.05); 
 }
 
-
+.furthermore {
+  display: inline;
+}
+.furthermorea {
+  font-weight: 600;
+  color: #3755BE;
+}
 /*** About Section ***/
 .about-section {
     height: 100%;
