@@ -322,6 +322,78 @@ html {
       color:white !important;
     }
 
+#main {
+  margin: 50px 0;
+}
+
+#main #faq .card {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  transition: box-shadow .3s;
+  font-size: 15px;
+}
+
+#main #faq .card .card-header {
+  border: 0;
+  border-radius: 10px;
+  padding: 0;
+}
+
+#main #faq .card .card-header .btn-header-link {
+  color: #000;
+  display: block;
+  text-align: left;
+  background: #fff;
+  color: #25568f;
+  padding: 20px;
+  font-weight: 600;
+}
+
+#main #faq .card .card-header .btn-header-link:after {
+  content: "-";
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  float: right;
+  color: #25568f;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed {
+  background: #fff;
+  color: #000;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "+";
+  color: #25568f;
+}
+
+#main #faq .card .collapsing {
+  
+  background: #fff;
+  line-height: 30px;
+  color: rgb(73, 80, 87);
+}
+
+#main #faq .card .collapse {
+  border: 0;
+}
+
+#main #faq .card .collapse.show {
+  background: #fff;
+  line-height: 30px;
+  color: rgb(73, 80, 87);
+}
+
+/*** Drop shadow and Effects ***/
+#main #faq .card .card-header .btn-header-link:hover {
+  color: #25568f;
+}
+
+.card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.05); 
+}
+
 
 /*** About Section ***/
 .about-section {
