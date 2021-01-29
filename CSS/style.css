@@ -430,6 +430,10 @@ html {
   font-weight: 600;
   color: #3755BE;
 }
+.furthermorea:hover {
+  text-decoration: none;
+  color: #3755BE;
+}
 /*** About Section ***/
 .about-section {
     height: 100%;
