@@ -1,3 +1,4 @@
+@media (max-width: 1920px) {
 /** Main **/
 body {
     width: 100%;
@@ -232,11 +233,6 @@ html {
 }
 .hooksvg {
   background-color: #3755BE !important;
-  outline: none !important; 
-}
-
-.hooksvg:focus {
-    outline: none !important;
 }
 
 /*** Summary Section ***/
@@ -317,7 +313,6 @@ html {
     .card-hover:hover .bi{
       color:white !important;
     }
-
 
 
 .panels{
@@ -428,32 +423,12 @@ html {
     height: 20%;
     width: 100%;
   }
-/*** About Section ***/
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-    width: 100% !important;
-}
-
-
-/*** Services Section ***/
-.services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-    width: 100% !important;
-}
-
-
 /*** Contact Section ***/
 .contact-section {
     height: 70%;
     padding-top: 150px;
     text-align: center;
-    background-color: #3755be;
+    background: #eee;
     width: 100% !important;
 }
 
@@ -474,12 +449,11 @@ html {
     width: 228px;
     color: rgb(85, 90, 85);
 }
-
+} 
 /** Responsive items made so far **/
 @media (max-width: 1199px) {
-  html {
-     overflow-x: hidden;
-     overflow-y: scroll; 
+  body {
+    background-color: gray !important;
   }
   .heroheader, .herocontent {
      width: 500px;   
@@ -495,9 +469,8 @@ html {
 }
 
 @media (max-width: 992px) {
-  html {
-     overflow-x: hidden;
-     overflow-y: scroll; 
+body {
+    background-color: red !important;
   }
   .hero-section {
     height: 125%;
@@ -513,12 +486,19 @@ html {
   .hookdesc {
     font-size: 16px;
   }
+ #main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 }
 
 @media (max-width: 852px) {
   html {
-     overflow-x: hidden;
+      overflow-x: hidden;
      overflow-y: scroll; 
+  }
+  body {
+    background-color: purple !important;
   }
   .hookheader {
     font-size: 37px;
@@ -543,6 +523,9 @@ html {
   }
 }
 @media (max-width: 768px) {
+  body {
+    background-color: pink !important;
+  }
   .hero-section {
     height: auto;
   }
@@ -557,9 +540,25 @@ html {
     font-size: 14px;
     display: block;
   }
+  #main {
+    margin: 0% !important;
+    display: flex;
+  }
+ 
+  }
+  
+  
+}
+@media (max-width: 700px) {
+  body {
+    background-color: green !important;
+  }
 }
 
 @media (max-width: 686px) {
+  body {
+    background-color: orange !important;
+  }
   .hookheader {
     margin-left: 0% !important;
     width: auto;
@@ -574,7 +573,13 @@ html {
   }
 }
 
+
+
+
 @media (max-width: 487px) {
+  body {
+    background-color: blue !important;
+  }
   .hero-section {
     padding-top: 0px !important; 
   }
@@ -587,27 +592,24 @@ html {
   }
 }
 @media (max-width: 415px) { 
-   html {
-     overflow-x: hidden;
-     overflow-y: scroll; 
+   body {
+    background-color: maroon !important;
   }
    .herocontent {
     height: 150px;
     }
   }
 @media (max-width: 410px) { 
-   html {
-     overflow-x: hidden;
-     overflow-y: scroll; 
+   body {
+    background-color: lime !important;
   }
    .heroheader {
     height: 320px;
   }
 }
 @media (max-width: 403px) {
-   html {
-     overflow-x: hidden;
-     overflow-y: scroll; 
+  body {
+    background-color: teal !important;
   }
   .heroheader {
     font-size: 28px !important;
