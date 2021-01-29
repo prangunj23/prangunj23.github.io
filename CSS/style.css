@@ -319,12 +319,13 @@ html {
     }
 
 
+
 .panels{
   font-family: 'Inter', sans-serif;
   height: auto;   
   width: 100% !important;
   padding-top: 25px;
-
+  background: #fff;
 }
 .panelsheader {
   padding-top: 25px;
@@ -338,12 +339,9 @@ html {
   line-height: 57.75px;
 }
 #main {
-  /* margin: 50px 0; no*/
   margin-left: 25%;
   margin-right: 25%;
-  margin-bottom: 5%;
 }
-
 #main #faq .card {
   margin-bottom: 10px;
   border-radius: 10px;
@@ -371,7 +369,7 @@ html {
 #main #faq .card .card-header .btn-header-link:after {
   content: "-";
   font-family: 'Inter', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   float: right;
   color: #25568f;
 }
@@ -411,29 +409,25 @@ html {
 .card:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.05); 
 }
-
-
-/*** Drop shadow and Effects ***/
-#main #faq .card .card-header .btn-header-link:hover {
-  color: #25568f;
-}
-
-.card:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.05); 
-}
-
 .furthermore {
   display: inline;
-  padding-bottom: 300px !important;
 }
 .furthermorea {
   font-weight: 600;
   color: #3755BE;
 }
+
 .furthermorea:hover {
   text-decoration: none;
   color: #3755BE;
 }
+
+  .gap {
+    content: "";
+    background: #fff;
+    height: 20%;
+    width: 100%;
+  }
 /*** About Section ***/
 .about-section {
     height: 100%;
