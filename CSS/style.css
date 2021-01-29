@@ -1,4 +1,8 @@
 /** Main **/
+  html {
+     overflow-x: hidden;
+     overflow-y: scroll; 
+  }
 body {
     width: 100%;
     height: 100%;
@@ -368,7 +372,10 @@ html {
 
 /** Responsive items made so far **/
 @media (max-width: 1199px) {
-
+  html {
+     overflow-x: hidden;
+     overflow-y: scroll; 
+  }
   .heroheader, .herocontent {
      width: 500px;   
   } 
@@ -383,7 +390,10 @@ html {
 }
 
 @media (max-width: 992px) {
-
+  html {
+     overflow-x: hidden;
+     overflow-y: scroll; 
+  }
   .hero-section {
     height: 125%;
   }
@@ -402,10 +412,9 @@ html {
 
 @media (max-width: 852px) {
   html {
-      overflow-x: hidden;
+     overflow-x: hidden;
      overflow-y: scroll; 
   }
-
   .hookheader {
     font-size: 37px;
   }
@@ -445,7 +454,6 @@ html {
   }
 }
 
-
 @media (max-width: 686px) {
   .hookheader {
     margin-left: 0% !important;
@@ -461,27 +469,54 @@ html {
   }
 }
 
-
-
-
 @media (max-width: 487px) {
+  .hero-section {
+    padding-top: 0px !important; 
+  }
   .heroheader {
-    font-size: 36px;
+    font-size: 32px;
+    height: 270px;
   }
   .hookheader {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
-
+@media (max-width: 415px) { 
+   html {
+     overflow-x: hidden;
+     overflow-y: scroll; 
+  }
+   .herocontent {
+    height: 150px;
+    }
+  }
+@media (max-width: 410px) { 
+   html {
+     overflow-x: hidden;
+     overflow-y: scroll; 
+  }
+   body {
+    background-color: lime !important;
+  }
+   .heroheader {
+    height: 320px;
+  }
+}
 @media (max-width: 403px) {
+   html {
+     overflow-x: hidden;
+     overflow-y: scroll; 
+  }
   .heroheader {
     font-size: 28px !important;
+    height: 300px;
   }
   .hero-section {
+    padding-top: 0px !important; 
     height: 150%;
   }
   .herocontent {
-    padding-bottom: 150px;
+    height: 200px;
   }
   .hook-section {
     height: 85%;
@@ -492,4 +527,4 @@ html {
   .hookdesc {
     width: 300px !important;
   }
-} 
+}
