@@ -342,7 +342,9 @@ html {
   line-height: 57.75px;
 }
 #main {
-  margin: 50px 0;
+  /* margin: 50px 0; no*/
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 #main #faq .card {
