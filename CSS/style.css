@@ -10,14 +10,7 @@ html {
     height: 100%;
     scroll-behavior: smooth;
 }
-    
-::selection {  
-  background: #ffe987;
-}
-::-moz-selection {
-  background: #ffe987; /* Firefox */
-}
-    
+  
 /** Announcement bar **/
  .announcement {
    display: inline-block;
@@ -159,6 +152,14 @@ html {
   height: 200px;
 }
 
+.heroheader::selection {  
+  background: #ffe987;
+}
+    
+.heroheader::-moz-selection {
+  background: #ffe987; /* Firefox */
+}
+    
  .highlight {
    color: #3755BE !important;
    background-color: rgba(211, 224, 237, 0.2);
@@ -176,7 +177,15 @@ html {
     height: 96px;
     width: 686px;
 }
-
+    
+.herocontent::selection {  
+  background: #ffe987;
+}
+    
+.herocontent::-moz-selection {
+  background: #ffe987; /* Firefox */
+}
+    
 .custom-shape-divider-bottom-1611762507 {
     position: relative;
     bottom: 0;
@@ -259,6 +268,14 @@ html {
   line-height: 57.75px;
 }
 
+.summaryheader::selection {  
+  background: #ffe987;
+}
+    
+.summaryheader::-moz-selection {
+  background: #ffe987; /* Firefox */
+}
+    
 .summarydesc {
   font-family: 'Inter', sans-serif; 
   font-weight: 400 !important; 
@@ -271,11 +288,13 @@ html {
   line-height: 32px;
   vertical-align: middle;
 }
-
-@media all and (max-width: 800px) {
-    .summarydesc {
-        word-wrap: break-word;
-    }
+    
+.summarydesc::selection {  
+  background: #ffe987;
+}
+    
+.summarydesc::-moz-selection {
+  background: #ffe987; /* Firefox */
 }
 
 .p-2{
@@ -316,7 +335,6 @@ html {
       color: white !important;
     }
 
-
 .panels{
   font-family: 'Inter', sans-serif;
   height: auto;   
@@ -324,6 +342,15 @@ html {
   padding-top: 25px;
   background: #fff;
 }
+    
+.panels::selection {  
+  background: #ffe987;
+}
+    
+.panels::-moz-selection {
+  background: #ffe987; /* Firefox */
+}
+    
 .panelsheader {
   padding-top: 25px;
   font-weight: 600;
@@ -335,6 +362,7 @@ html {
   letter-spacing: -0.9px;
   line-height: 57.75px;
 }
+    
 #main {
   margin-left: 25%;
   margin-right: 25%;
