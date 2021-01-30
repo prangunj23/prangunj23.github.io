@@ -10,7 +10,11 @@ html {
     height: 100%;
     scroll-behavior: smooth;
 }
-
+    
+::selection {  
+  background: #ffe987;
+}
+    
 /** Announcement bar **/
  .announcement {
    display: inline-block;
