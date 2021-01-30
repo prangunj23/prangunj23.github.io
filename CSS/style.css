@@ -10,6 +10,13 @@ html {
     height: 100%;
     scroll-behavior: smooth;
 }
+ ::selection {  
+  background: #ffe987 !important;
+}
+    
+::-moz-selection {
+  background: #ffe987 !important; /* Firefox */
+}
   
 /** Announcement bar **/
  .announcement {
@@ -150,15 +157,7 @@ html {
   vertical-align: baseline;
   width: 686px; 
   height: 200px;
-}
-
-.heroheader::selection {  
-  background: #ffe987 !important;
-}
-    
-.heroheader::-moz-selection {
-  background: #ffe987 !important; /* Firefox */
-}
+ }
     
  .highlight {
    color: #3755BE !important;
@@ -177,15 +176,7 @@ html {
     height: 96px;
     width: 686px;
 }
-    
-.herocontent::selection {  
-  background: #ffe987;
-}
-    
-.herocontent::-moz-selection {
-  background: #ffe987; /* Firefox */
-}
-    
+
 .custom-shape-divider-bottom-1611762507 {
     position: relative;
     bottom: 0;
@@ -267,14 +258,6 @@ html {
   letter-spacing: -1.575px;
   line-height: 57.75px;
 }
-
-.summaryheader::selection {  
-  background: #ffe987;
-}
-    
-.summaryheader::-moz-selection {
-  background: #ffe987; /* Firefox */
-}
     
 .summarydesc {
   font-family: 'Inter', sans-serif; 
@@ -287,14 +270,6 @@ html {
   padding-bottom: 0px;
   line-height: 32px;
   vertical-align: middle;
-}
-    
-.summarydesc::selection {  
-  background: #ffe987;
-}
-    
-.summarydesc::-moz-selection {
-  background: #ffe987; /* Firefox */
 }
 
 .p-2{
@@ -341,14 +316,6 @@ html {
   width: 100% !important;
   padding-top: 25px;
   background: #fff;
-}
-    
-.panels::selection {  
-  background: #ffe987;
-}
-    
-.panels::-moz-selection {
-  background: #ffe987; /* Firefox */
 }
     
 .panelsheader {
