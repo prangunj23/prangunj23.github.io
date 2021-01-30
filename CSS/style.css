@@ -131,12 +131,6 @@ html {
     outline: none;
 }
 
-@media only screen and (max-width: 800px) {
-    .col-50 {
-        display: none;
-    }
-}
-
 /*** Hero Section ***/
 .hero-section {
     height: 100%;
@@ -230,11 +224,6 @@ html {
    vertical-align: middle;
  }
  
-@media only screen and (max-width: 800px) {
-    .hookdesc {
-        display: none;
-    }
-}
 .hooksvg {
   background-color: #3755BE !important;
 }
