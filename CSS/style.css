@@ -153,11 +153,11 @@ html {
 }
 
 .heroheader::selection {  
-  background: #ffe987;
+  background: #ffe987 !important;
 }
     
 .heroheader::-moz-selection {
-  background: #ffe987; /* Firefox */
+  background: #ffe987 !important; /* Firefox */
 }
     
  .highlight {
