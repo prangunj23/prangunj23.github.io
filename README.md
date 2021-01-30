@@ -23,7 +23,7 @@ frequently format code to look tidy
 - [ ] Page fade transition
 - [ ] plugin to sort articles (ik what to use)
 - [ ] countup.js
-- [ ] Testimonials carousel (maybe owl carousel)
+- [ ] carousel (maybe owl carousel)
 
 
 ### General todo list
