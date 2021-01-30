@@ -361,7 +361,7 @@ html {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   float: right;
-  color: #25568f;
+  color: #3755BE;
 }
 
 #main #faq .card .card-header .btn-header-link.collapsed {
@@ -371,7 +371,7 @@ html {
 
 #main #faq .card .card-header .btn-header-link.collapsed::after {
   content: "+";
-  color: #25568f;
+  color: #3755BE;
 }
 
 #main #faq .card .collapsing {
@@ -393,7 +393,7 @@ html {
 
 /*** Card Effects ***/
 #main #faq .card .card-header .btn-header-link:hover {
-  color: #25568f;
+  color: #3755BE;
 }
 
 .card:hover {
