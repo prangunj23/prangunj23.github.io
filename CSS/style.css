@@ -32,7 +32,7 @@ html {
    vertical-align: middle;
    font-family: 'Inter', sans-serif;
    font-size: 15px;
-   font-weight: 400px;
+   font-weight: 400;
  }
 
 .badge {
@@ -467,7 +467,7 @@ html {
    vertical-align: middle;
    font-family: 'Inter', sans-serif;
    font-size: 15px;
-   font-weight: 400px;
+   font-weight: 400;
  }
     
 .wave {
