@@ -1,5 +1,5 @@
 # prangunj23.github.io
-Medicomm Telecommunications Company
+Medicomm Telecommunications
 
 ---
 frequently format code to look tidy
