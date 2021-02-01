@@ -98,7 +98,7 @@ html {
 .heroheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important;  
-  color: rgb(33, 37, 41);
+  color: #fff;
   display: block;
   line-height: 53px;
   vertical-align: baseline;
@@ -109,7 +109,7 @@ html {
 .herocontent {
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;  
-    color: rgb(85, 85, 85);
+    color: #fff;
     display: block;
     line-height: 24px;
     vertical-align: baseline;
