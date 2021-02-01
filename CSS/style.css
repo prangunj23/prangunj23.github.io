@@ -488,23 +488,13 @@ html {
    40% { transform: rotate(-4.0deg) }
    50% { transform: rotate(10.0deg) }
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-/*** Custom CSS ***/
+  100% { 
+      transform: rotate( 0.0deg) 
+    }
 
-.box-1 {
-    display: block;
-    font-weight: 400px;
-    height: 96px;
-    width: 228px;
-    color: rgb(85, 90, 85);
-}
-
-.box-2 {
-    font-weight: 400px;
-    height: 96px;
-    width: 228px;
-    color: rgb(85, 90, 85);
-}
+    
+    
+    /** End media query bracket**/
 }
 
 
