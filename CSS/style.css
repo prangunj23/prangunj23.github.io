@@ -653,4 +653,8 @@ html {
     height: auto;
     width: auto;
   }
+ .salutations {
+    height: 12%;
+    padding-bottom: 0px;
+  }
 }
