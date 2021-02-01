@@ -32,6 +32,8 @@ frequently format code to look tidy
 - [x] Hero area
 > add 2 buttons at the bottom of description
 - [ ] Footer area 
+- [ ] es version
+- [ ] press page
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
 - [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
