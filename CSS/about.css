@@ -77,7 +77,7 @@ html {
 }
 
 .nav-item .nav-link:hover {
-  color: #3755BE !important; /*** You can change the text color here if you guys want ***/
+  color: #3755BE !important; 
 }
 
 .nav-item .nav-link:hover::after {
