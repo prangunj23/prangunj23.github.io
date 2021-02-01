@@ -295,7 +295,7 @@ html {
 
    /* Card changes color on hover */
     .card-hover:hover {
-      background-color: #adadad !important;
+      background-color: #0275d8 !important;
       color: white !important;
       cursor: default;
     }
