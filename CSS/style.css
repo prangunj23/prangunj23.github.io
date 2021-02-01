@@ -235,6 +235,26 @@ html {
   background-color: #3755BE !important;
 }
 
+/** Fast Facts Sectiion **/
+ .fastfacts-section {
+    font-family: 'Inter', sans-serif;
+    height: 100% !important;   
+    background-color: #fafbfc;
+    width: 100% !important;
+    padding-top: 25px;
+}
+  .factheader {
+    padding-top: 5px;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  color: rgb(33, 37, 41);
+  display: block;
+  font-size: 52.5px !important;
+  height: 107px;
+  letter-spacing: -1.575px;
+  line-height: 57.75px;   
+  }
 /*** Summary Section ***/
 .summary-section {
     font-family: 'Inter', sans-serif;
