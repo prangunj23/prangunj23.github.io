@@ -453,6 +453,42 @@ html {
 .copr {
     color: #fff !important;
 }
+.salutations {
+   display: inline-block;
+   height: 8%;
+   width: 100%;
+   margin: 0;
+   padding-bottom: 40px;
+   padding-top: 15px;
+   background: #2b4294;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   vertical-align: middle;
+   font-family: 'Inter', sans-serif;
+   font-size: 15px;
+   font-weight: 400px;
+ }
+    
+.wave {
+  font-size: 18px;
+  vertical-align: bottom;
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 /*** Custom CSS ***/
 
 .box-1 {
