@@ -430,8 +430,9 @@ html {
     color: #fff;
     width: 100% !important;
 }
-
-
+.copr {
+    color: #fff !important;
+}
 /*** Custom CSS ***/
 
 .box-1 {
