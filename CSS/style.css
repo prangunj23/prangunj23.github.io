@@ -450,7 +450,7 @@ html {
 }
 
 
-/** Responsive items made so far **/
+/** Responsive Media Queries **/
 @media (max-width: 1199px) {
   .heroheader, .herocontent {
      width: 500px;   
