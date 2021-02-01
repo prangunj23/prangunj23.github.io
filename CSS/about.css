@@ -85,7 +85,7 @@ html {
 }
 
 /*** Lead Section ***/
-.hero-section {
+.lead-section {
     height: 65%;
     padding-top: 125px;
     align-content: left;
@@ -95,7 +95,7 @@ html {
     width: 100% !important;
 }
 
-.heroheader {
+.leadheader {
   font-family: 'Inter', sans-serif; 
   font-weight: 900 !important;  
   color: #fff;
@@ -106,7 +106,7 @@ html {
   height: 200px;
  }
     
-.herocontent {
+.leadcontent {
     font-family: 'Inter', sans-serif; 
     font-weight: 400 !important;  
     color: #fff;
