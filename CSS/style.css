@@ -442,14 +442,17 @@ html {
   }
   
 /*** Contact Section ***/
-.contact-section {
+.footer-section {
     height: auto;
     padding-top: 150px;
     background: #3755BE;
     color: #fff;
     width: 100% !important;
 }
-    
+.fsubhead {
+  font-family: 'Inter', sans-serif;
+  text-decoration: underline #6b8cff;
+}
 .footerlink {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -458,6 +461,7 @@ html {
     color: #ccdceb !important;
     transition: 0.3s;
 }
+    
 .footerlink:hover {
     text-decoration: none;
     color: #fff !important;
