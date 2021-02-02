@@ -455,7 +455,12 @@ html {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    color: #ccdceb !important;
+    transition: 0.6s;
 }
+.footerlink:hover {
+    color: #fff !important;
+    }
     
 .salutations {
    display: inline-block;
