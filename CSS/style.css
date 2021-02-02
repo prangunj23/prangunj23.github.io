@@ -450,8 +450,10 @@ html {
     width: 100% !important;
 }
 .fsubhead {
-  font-family: 'Inter', sans-serif;
-  text-decoration: underline #6b8cff;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 2px solid #6b8cff;
+    display: inline-block;
+    padding-bottom: 10px;
 }
 .footerlink {
     font-family: 'Inter', sans-serif;
