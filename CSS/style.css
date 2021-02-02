@@ -443,7 +443,7 @@ html {
   
 /*** Contact Section ***/
 .contact-section {
-    height: 70%;
+    height: auto;
     padding-top: 150px;
     background: #3755BE;
     color: #fff;
