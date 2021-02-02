@@ -449,9 +449,14 @@ html {
     color: #fff;
     width: 100% !important;
 }
-.copr {
-    color: #fff !important;
+    
+.footerlink {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
 }
+    
 .salutations {
    display: inline-block;
    height: 8%;
