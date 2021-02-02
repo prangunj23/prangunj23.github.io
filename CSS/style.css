@@ -456,9 +456,10 @@ html {
     font-size: 16px;
     cursor: pointer;
     color: #ccdceb !important;
-    transition: 0.6s;
+    transition: 0.3s;
 }
 .footerlink:hover {
+    text-decoration: none;
     color: #fff !important;
     }
     
