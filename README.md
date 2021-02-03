@@ -16,7 +16,7 @@ frequently format code to look tidy
 - [ ] We will eventually have to make css files for each page
 - [ ] *animate.css* maybe so far.... will check later
 - [ ] Fast facts picture on About us
-
+- [ ] Move text up on footer (padding-top)
 ### JS todo list/plans
 > Later combine scripts into one js document I think
 - [ ] Preloader
