@@ -13,7 +13,6 @@ frequently format code to look tidy
 ### CSS todo list
 > color palette - Main:#3755be, Secondary: #fff, others: #000 (blue), #fafbfc(light white), #adadad & #d9d9d9 (grays)
 - [ ] Make each page responsive...
-> Landing page, 404 page,
 - [ ] We will eventually have to make css files for each page
 - [ ] *animate.css* maybe so far.... will check later
 
