@@ -31,7 +31,6 @@ frequently format code to look tidy
 
 - [x] Hero area
 > add 2 buttons at the bottom of description
-- [ ] Footer area 
 - [ ] es version
 - [ ] press page
 - [ ] Back to top arrow
