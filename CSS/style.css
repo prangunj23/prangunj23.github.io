@@ -618,6 +618,11 @@ html {
   }
 }
 
+@media (max-width: 516px) {
+  .footerimg {
+    width: 400px;
+  }
+}
 @media (max-width: 487px) {
   .hero-section {
     padding-top: 0px !important; 
@@ -635,6 +640,9 @@ html {
    .herocontent {
     height: 150px;
     }
+  .footerimg {
+    width: 300px;
+  }
   }
   
 @media (max-width: 410px) { 
