@@ -331,7 +331,31 @@ body {
     .card-hover:hover .bi{
       color: white !important;
     }
-
+.testimonialsheader {
+    width: 100%;
+    margin: auto;
+    background-color: #3755BE;
+  }
+    
+.statement {
+    font-family: 'Inter', sans-serif;
+   font-weight: 900 !important;
+   font-size: 36px;
+   color: #fff;
+   margin: auto !important;
+   text-align: center;
+   height: auto;
+   width: 75%;
+   padding: 105px 50px 105px;
+   line-height: 53px;
+   vertical-align: middle;
+  }
+    
+  .underline1 {
+    display: inline;
+    text-decoration: underline #6b8cff;
+  }
+    
 .panels{
   font-family: 'Inter', sans-serif;
   height: auto;   
