@@ -257,7 +257,18 @@ body {
   letter-spacing: -1.575px;
   line-height: 57.75px;   
   }
-  
+    
+  .fastfactsdesc {
+  font-family:  'Inter', sans-serif; 
+  font-weight: 400 !important; 
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  margin: auto;
+  text-align: center;
+  padding-bottom: 0px;
+  line-height: 32px;
+  vertical-align: middle;
+}
 .stat {
   color: #3755be;
   position: relative;
