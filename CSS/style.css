@@ -257,6 +257,21 @@ body {
   letter-spacing: -1.575px;
   line-height: 57.75px;   
   }
+  
+.stat {
+  color: #3755be;
+  position: relative;
+  padding-top: 100px;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 52.5px !important;
+  height: 107px;
+  letter-spacing: -1.575px;
+  line-height: 57.75px;  
+ }
+    
 /*** Summary Section ***/
 .summary-section {
     font-family: 'Inter', sans-serif;
