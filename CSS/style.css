@@ -246,12 +246,15 @@ body {
 }
 
 /** Fast Facts Sectiion **/
- .fastfacts-section {
+ 
+.fastfacts-section {
     font-family: 'Inter', sans-serif;
-    height: 100% !important;   
+    height: auto !important;   
     background-color: #fafbfc;
     width: 100% !important;
     padding-top: 25px;
+    margin: auto;
+    padding-bottom: 250px;
 }
   .factheader {
     padding-top: 5px;
@@ -265,7 +268,7 @@ body {
   letter-spacing: -1.575px;
   line-height: 57.75px;   
   }
-    
+  
   .fastfactsdesc {
   font-family:  'Inter', sans-serif; 
   font-weight: 400 !important; 
@@ -277,9 +280,10 @@ body {
   line-height: 32px;
   vertical-align: middle;
 }
-.stat {
-  color: #3755be;
-  position: relative;
+  
+  .stat {
+    color: #3755be;
+    position: relative;
   padding-top: 50px;
   font-weight: 800;
   text-align: center;
@@ -289,7 +293,20 @@ body {
   height: 107px;
   letter-spacing: -1.575px;
   line-height: 57.75px;  
- }
+  }
+  .statdesc {
+    padding-top: 35px;
+ font-family:  'Inter', sans-serif; 
+  font-weight: 300 !important; 
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  margin: auto;
+  text-align: center;
+  padding-bottom: 0px;
+  line-height: 32px;
+  vertical-align: middle;
+  
+  }
     
 /*** Summary Section ***/
 .summary-section {
