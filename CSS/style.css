@@ -446,7 +446,7 @@ body {
 }
 
 #main #faq .card .card-header .btn-header-link {
-  color: #000;
+  color: #212529;
   display: block;
   text-align: left;
   background: #fff;
@@ -465,7 +465,7 @@ body {
 
 #main #faq .card .card-header .btn-header-link.collapsed {
   background: #fff;
-  color: #000;
+  color: #212529;
 }
 
 #main #faq .card .card-header .btn-header-link.collapsed::after {
