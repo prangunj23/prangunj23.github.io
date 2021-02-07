@@ -4,6 +4,16 @@ Medicomm Telecommunications
 ---
 frequently format code to look tidy
 
+### General todo list
+
+- [x] Hero area
+> add 2 buttons at the bottom of description
+- [ ] es version
+- [ ] press page <-
+- [ ] Back to top arrow
+- [ ] Page loader animation maybe?
+- [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
+
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
@@ -27,17 +37,6 @@ frequently format code to look tidy
 - [ ] plugin to sort articles (ik what to use)
 - [ ] countup.js
 - [ ] carousel (maybe owl carousel)
-
-
-### General todo list
-
-- [x] Hero area
-> add 2 buttons at the bottom of description
-- [ ] es version
-- [ ] press page
-- [ ] Back to top arrow
-- [ ] Page loader animation maybe?
-- [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
 
 ### Bugs2Fix 
 
