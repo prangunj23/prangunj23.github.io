@@ -34,73 +34,77 @@
     <!-- JS for Bootstrap -->
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
-<body>
-   <header>
-   
- <!--Navigation Bar (TESTING)-->
-   <nav class="nav-menu-top navbar navbar-expand-lg navbar-light bg-white<!-- fixed-top-->">
-   <div class="ml-auto">
-  <!-- <a class="navbar-brand" href="https://medicomm.org"><img src="/assets/images/medicomm_favicon_270.png" width="30" height="30" class="d-inline-block align-top" alt="">MedicommLogoGoesHere</a> -->       
-  <a class="navbar-brand" href="https://medicomm.org"><img src="/assets/images/medicomm-logo.png" width="" height="53.5" class="d-inline-block align-top" alt=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-     </div>
-     
-<div class="container">
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto">
-  </ul>
+    <!-- Start Header -->
+  <header>
+    
+    <!-- Announcement bar-->
+ <!--   <div class="announcement">
+      <p><span class="badge badge-secondary">New</span> Virtual sessions with physicians are now available! 🎉</p>
+    </div>  -->
 
+    <!--Navigation bar-->
+    <nav class="nav-menu-top navbar navbar-expand-lg navbar-light bg-white">
+      <div class="ml-auto">
+        <a class="navbar-brand" href="https://medicomm.org"><img src="/assets/images/medicomm-logo.png" width="" height="53.5" class="d-inline-block align-top" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
 
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
 
-    <!-- ul Class begins -->
-     <ul class="navbar navbar-nav my-2 my-sm-0">
+          <!-- ul Class begins -->
+          <ul class="navbar navbar-nav my-2 my-sm-0">
+            <!-- Home -->
+            <li class="nav-item active">
+              <a class="nav-link" href="https://medicomm.org">Home <span class="sr-only">(current)</span></a>
+            </li>
 
-       <!-- Home -->
-      <li class="nav-item active">
-        <a class="nav-link" href="https://medicomm.org">Home <span class="sr-only">(current)</span></a>
-      </li>
+            <!-- About Us -->
 
-
-          <!-- About Us -->
-
-         <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/about/">About Us</a>
-          </li>
+            </li>
 
-          <!--- Products -->
-          <li class="nav-item">
+            <!--- Products -->
+            <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/products/">Products</a>
-          </li>
+            </li>
 
-          <!--- Services -->
-          <li class="nav-item">
+            <!--- Services -->
+            <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/Services/">Services</a>
-          </li>
-      
-          <!--- Sources used for Project --->
-         <li class="nav-item">
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://medicomm.org/Covid-19/">Covid-19</a>
+            </li>
+
+            <!--- Sources used for Project --->
+            <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/Sources/">Sources</a>
-         </li>
+            </li>
 
-          <!--- Contact -->
-          <li class="nav-item">
+            <!--- Contact -->
+            <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/contacts/">Contact</a>
-          </li>
+            </li>
 
-          
-
-      <!-- ul Class ends -->
-     </ul>
- 
-</div>
-</div>
-</nav>
-<!-- End Header -->
+            <!-- ul Class ends -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Header -->
   </header>
+    <body>
+    <div style="margin-left: 20px;">
     <h1>Coronavirus Screenings</h1>
-    <p>If you have any of the following symptoms, please schedule a time to come to any of our drive-in screenings in order to get tested for the Coronavirus.</p>
+    <p>If you have any of the following symptoms, please schedule a time to get tested.
+    <br>Click <a href="../products/Covid-19/testing.html">here</a> to schedule a time to come.<br>
+    Click <a href="../products/Covid-19/kits.html">here</a> to get a home delivery kit.</p>
     <ul>
       <li>Fever or chills</li>
       <li>Cough</li>
@@ -114,10 +118,11 @@
       <li>Nausea or vomiting</li>
       <li>Diarrhea</li>
       </ul>
-      <a href="../products/Covid-19/testing.html">Click here to schedule a time to come.</a>
-      <br>
-      <a href="../products/Covid-19/kits.html">Click here for home delivery kits</a>
-
+        <button onclick="window.location.href='https://medicomm.org/products/Covid-19/testing.html'" class="btn btn-outline-primary">Click here to schedule a time to come in</button>
+        <br>
+        <br>
+        <button onclick="window.location.href='https://medicomm.org/products/Covid-19/kits.html'" class="btn btn-outline-primary">Click here to get a home delivery kit.</button>
+        </div>
 
     </body>
     </html>

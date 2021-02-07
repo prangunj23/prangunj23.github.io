@@ -1,5 +1,5 @@
 # prangunj23.github.io
-Medicomm Telecommunications Company
+Medicomm Telecommunications
 
 ---
 frequently format code to look tidy
@@ -9,12 +9,15 @@ frequently format code to look tidy
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
+- [ ] sources
 
 ### CSS todo list
+> color palette - Main:#3755be, Secondary: #fff, others: #000 (blue), #fafbfc(light white), #adadad & #d9d9d9 (grays)
 - [ ] Make each page responsive...
-> Landing page, 404 page,
 - [ ] We will eventually have to make css files for each page
 - [ ] *animate.css* maybe so far.... will check later
+- [ ] Fast facts picture on About us
+- [ ] drop shadow fade on what we do cards
 
 ### JS todo list/plans
 > Later combine scripts into one js document I think
@@ -30,7 +33,8 @@ frequently format code to look tidy
 
 - [x] Hero area
 > add 2 buttons at the bottom of description
-- [ ] Footer area 
+- [ ] es version
+- [ ] press page
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
 - [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit

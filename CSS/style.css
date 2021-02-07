@@ -1,15 +1,17 @@
 @media (max-width: 1920px) {
 /** Main **/
+html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-y: auto; 
+}
+    
 body {
     width: 100%;
     height: 100%;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-    scroll-behavior: smooth;
-}
  ::selection {  
   background: #ffe987 !important;
 }
@@ -17,7 +19,15 @@ html {
 ::-moz-selection {
   background: #ffe987 !important; /* Firefox */
 }
-  
+    
+.no-select { /* not in use here yet, but a class to disable text selection */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;  /* Chrome all / Safari */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */     
+}
+    
 /** Announcement bar **/
  .announcement {
    display: inline-block;
@@ -32,7 +42,7 @@ html {
    vertical-align: middle;
    font-family: 'Inter', sans-serif;
    font-size: 15px;
-   font-weight: 400px;
+   font-weight: 400;
  }
 
 .badge {
@@ -77,7 +87,7 @@ html {
 }
 
 .nav-item .nav-link:hover {
-  color: #3755BE !important; /*** You can change the text color here if you guys want ***/
+  color: #3755BE !important; 
 }
 
 .nav-item .nav-link:hover::after {
@@ -235,6 +245,69 @@ html {
   background-color: #3755BE !important;
 }
 
+/** Fast Facts Sectiion **/
+ 
+.fastfacts-section {
+    font-family: 'Inter', sans-serif;
+    height: auto !important;   
+    background-color: #fafbfc;
+    width: 100% !important;
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 250px;
+}
+  .factheader {
+    padding-top: 5px;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  color: rgb(33, 37, 41);
+  display: block;
+  font-size: 52.5px !important;
+  height: 107px;
+  letter-spacing: -1.575px;
+  line-height: 57.75px;   
+  }
+  
+  .fastfactsdesc {
+  font-family:  'Inter', sans-serif; 
+  font-weight: 400 !important; 
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  margin: auto;
+  text-align: center;
+  padding-bottom: 0px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+  
+  .stat {
+    color: #3755be;
+    position: relative;
+  padding-top: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 52.5px !important;
+  height: 107px;
+  letter-spacing: -1.575px;
+  line-height: 57.75px;  
+  }
+  .statdesc {
+    padding-top: 35px;
+ font-family:  'Inter', sans-serif; 
+  font-weight: 300 !important; 
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  margin: auto;
+  text-align: center;
+  padding-bottom: 0px;
+  line-height: 32px;
+  vertical-align: middle;
+  
+  }
+    
 /*** Summary Section ***/
 .summary-section {
     font-family: 'Inter', sans-serif;
@@ -295,7 +368,7 @@ html {
 
    /* Card changes color on hover */
     .card-hover:hover {
-      background-color: #adadad !important;
+      background-color: #6479c3 !important;
       color: white !important;
       cursor: default;
     }
@@ -309,7 +382,31 @@ html {
     .card-hover:hover .bi{
       color: white !important;
     }
-
+.testimonialsheader {
+    width: 100%;
+    margin: auto;
+    background-color: #3755BE;
+  }
+    
+.statement {
+    font-family: 'Inter', sans-serif;
+   font-weight: 900 !important;
+   font-size: 38px;
+   color: #fff;
+   margin: auto !important;
+   text-align: center;
+   height: auto;
+   width: 75%;
+   padding: 105px 50px 105px;
+   line-height: 53px;
+   vertical-align: middle;
+  }
+    
+  .underline1 {
+    display: inline;
+    text-decoration: underline #6b8cff;
+  }
+    
 .panels{
   font-family: 'Inter', sans-serif;
   height: auto;   
@@ -421,36 +518,80 @@ html {
     width: 100%;
   }
   
-/*** Contact Section ***/
-.contact-section {
-    height: 70%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+/*** Footer Section ***/
+.footer-section {
+    height: auto;
+    padding-top: 100px;
+    background: #3755BE;
+    color: #fff;
     width: 100% !important;
 }
-
-
-/*** Custom CSS ***/
-
-.box-1 {
-    display: block;
-    font-weight: 400px;
-    height: 96px;
-    width: 228px;
-    color: rgb(85, 90, 85);
+.fsubhead {
+    font-family: 'Inter', sans-serif;
+    border-bottom: 2px solid #6b8cff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.footerlink {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ccdceb !important;
+    transition: 0.3s;
+}
+    
+.footerlink:hover {
+    text-decoration: none;
+    color: #fff !important;
+    }
+    
+.salutations {
+   display: inline-block;
+   height: 8%;
+   width: 100%;
+   margin: 0;
+   padding-bottom: 40px;
+   padding-top: 15px;
+   background: #2b4294;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   vertical-align: middle;
+   font-family: 'Inter', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+ }
+    
+.wave {
+  font-size: 18px;
+  vertical-align: bottom;
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
 }
 
-.box-2 {
-    font-weight: 400px;
-    height: 96px;
-    width: 228px;
-    color: rgb(85, 90, 85);
-}
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { 
+      transform: rotate( 0.0deg) 
+    }
+
+    
+    
+    /** End media query bracket**/
 }
 
 
-/** Responsive items made so far **/
+/** Responsive Media Queries **/
 @media (max-width: 1199px) {
   .heroheader, .herocontent {
      width: 500px;   
@@ -516,6 +657,11 @@ html {
     font-size: 14px;
     display: block;
   }
+     .statement {
+    font-size: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -554,6 +700,11 @@ html {
   }
 }
 
+@media (max-width: 516px) {
+  .footerimg {
+    width: 400px;
+  }
+}
 @media (max-width: 487px) {
   .hero-section {
     padding-top: 0px !important; 
@@ -571,6 +722,9 @@ html {
    .herocontent {
     height: 150px;
     }
+  .footerimg {
+    width: 300px;
+  }
   }
   
 @media (max-width: 410px) { 
@@ -604,5 +758,9 @@ html {
     font-size: 24px;
     height: auto;
     width: auto;
+  }
+ .salutations {
+    height: 12%;
+    padding-bottom: 0px;
   }
 }
