@@ -1,4 +1,4 @@
-/*** Redacted CSS things (remove file later) ***/
+/*** Redacted CSS things ***/
 /**** body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -43,3 +43,57 @@
 .p-2{
  border-radius: 15px !important;
 }  */
+
+.loginbutton {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #fff;
+  border: 2.5px solid #ddd;
+  color: black;
+  padding: 3.5px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: none; 
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.loginbutton:hover {
+  border: 2.5px solid black;
+  border-radius: 16px;  
+  }
+
+.loginbutton:focus {
+    outline: none;
+}
+
+.signupbutton {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #07a5f0;
+  border: 2.5px solid #fff;
+  color: white;
+  padding: 3.5px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: none; 
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: 0.2s;  
+}
+
+.signupbutton:hover {
+  border: 2.5px solid black;
+  border-radius: 16px;
+}
+
+.signupbutton:focus {
+    outline: none;
+}
