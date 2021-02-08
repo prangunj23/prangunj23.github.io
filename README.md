@@ -6,8 +6,6 @@ frequently format code to look tidy
 
 ### General todo list
 
-- [x] Hero area
-> add 2 buttons at the bottom of description
 - [ ] es version
 - [ ] News aka Press page
 - [ ] Back to top arrow
