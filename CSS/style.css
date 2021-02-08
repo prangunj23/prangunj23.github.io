@@ -466,6 +466,7 @@ body {
   
 /*** Footer Section ***/
 .footer-section {
+    font-family: 'Inter', sans-serif !important;
     height: auto;
     padding-top: 100px;
     background: #3755BE;
