@@ -6,12 +6,11 @@ frequently format code to look tidy
 
 ### General todo list
 
-- [ ] es version
+- [ ] es version, just link other pages to home page sections
 - [ ] News aka Press page
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
-- [ ] Maybe "Chat with a representative" corner form? Must fill firstname, lastname, email - powered by recaptcha, and button to submit
-- [ ] footer to pages 
+- [ ] footer to all pages 
 
 ### HTML todo list
 
