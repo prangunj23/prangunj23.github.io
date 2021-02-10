@@ -8,6 +8,7 @@ frequently format code to look tidy
 
 - [ ] es version, just link other pages to home page sections
 - [ ] News aka Press page
+> countdown to 25th anniversary, green announcement bar
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
 - [ ] footer to all pages 
