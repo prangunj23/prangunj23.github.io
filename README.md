@@ -12,13 +12,14 @@ frequently format code to look tidy
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
 - [ ] footer to all pages 
-
+- [ ] replace what we do cards
+- [ ] testimonials
+- [ ] sources
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
 - [ ] Clean up comments: Unnecessary code needs to be removed before sending the page to production
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
-- [ ] sources
 
 ### CSS todo list
 > color palette - Main:#3755be, Secondary: #fff, others: #000 (blue), #fafbfc(light white), #adadad & #d9d9d9 (grays)
