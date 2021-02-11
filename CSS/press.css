@@ -48,7 +48,7 @@ body {
 .badge {
   display: inline;
   font-size: 12px;
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   text-transform: uppercase;
   background-color: #64a164;
   vertical-align: middle;
