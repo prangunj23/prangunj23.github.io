@@ -355,6 +355,9 @@ body {
     text-decoration: underline #6b8cff;
   }
 
+  .effectword {
+      color: #3755BE;
+   }
 /** FAQ Section **/
 .panels {
   font-family: 'Inter', sans-serif;
