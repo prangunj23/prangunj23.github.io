@@ -40,7 +40,8 @@ frequently format code to look tidy
 
 ### Bugs2Fix 
 
-- [ ] Fix navbar on each page! Copy the index.html navbar etc.
+- [ ] (make sure navbar and footer and correct for each page)
+- [ ] fix social media icons for footer
 
 ### Fixed bugs
 - [x] Fix [thing]
