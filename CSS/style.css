@@ -358,6 +358,10 @@ body {
   .effectword {
       color: #3755BE;
    }
+    
+  .thirddivider {
+    background: #fff;
+  }
 /** FAQ Section **/
 .panels {
   font-family: 'Inter', sans-serif;
