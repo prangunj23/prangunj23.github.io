@@ -20,7 +20,7 @@ body {
   background: #ffe987 !important; /* Firefox */
 }
     
-.no-select { /* not in use here yet, but a class to disable text selection */
+.no-select { /* class to disable text selection */
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;  /* Chrome all / Safari */
   -moz-user-select: none;     /* Firefox all */
