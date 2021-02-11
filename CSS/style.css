@@ -328,10 +328,12 @@ body {
     .card-hover:hover .bi{
       color: white !important;
     }
+    
+/** Testimonials Section **/
 .testimonialsheader {
     width: 100%;
     margin: auto;
-    background-color: #3755BE;
+    background-color: #fafbfc;
   }
     
 .statement {
@@ -352,8 +354,9 @@ body {
     display: inline;
     text-decoration: underline #6b8cff;
   }
-    
-.panels{
+
+/** FAQ Section **/
+.panels {
   font-family: 'Inter', sans-serif;
   height: auto;   
   width: 100% !important;
