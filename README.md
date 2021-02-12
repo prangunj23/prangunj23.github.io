@@ -33,6 +33,7 @@ frequently format code to look tidy
 - [ ] *animate.css* maybe so far.... will check later
 - [ ] Fast facts picture type on About us page
 - [ ] drop shadow fade on what we do cards
+- [ ] fix about us shade of blue 
 
 ### JS todo list/plans
 > Later combine scripts into one js document I think
