@@ -14,7 +14,7 @@ frequently format code to look tidy
 - [ ] Apply footer to all pages 
 - [ ] Replace what we do card icons
 - [ ] Make testimonials section
-> typed.js for testimonials header maybe TBD
+> typed.js for testimonials header "effectword" maybe (TBD)
 - [ ] sources page
 - [ ] illustrations maybe? utilizing svg's would be ideal
 - [ ] decide on illustrations vs pictures
