@@ -32,7 +32,7 @@ frequently format code to look tidy
 - [ ] We will eventually have to make css files for each page
 - [ ] *animate.css* maybe so far.... will check later
 - [ ] Fast facts picture type on About us page
-- [ ] drop shadow fade on what we do cards
+- [ ] Add drop shadow on what we do cards
 - [ ] fix about us shade of blue 
 
 ### JS todo list/plans
