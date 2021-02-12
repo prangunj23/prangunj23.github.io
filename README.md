@@ -9,6 +9,8 @@ frequently format code to look tidy
 - [ ] Spanish version, just link other pages to home page sections
 - [ ] Press page
 > countdown to 25th anniversary, email subscription rectangle above footer, typed.js for "Get insights on Medicomm __"
+
+> "Recent Articles". Articles have title, descripition, date, views, and tags (via bootstrap badges. maybe use isotope for this as well). Articles themselves can have static likes (again bootstrap badges)?
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
 - [ ] Apply footer to all pages 
