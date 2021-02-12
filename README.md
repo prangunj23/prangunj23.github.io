@@ -11,8 +11,8 @@ frequently format code to look tidy
 > countdown to 25th anniversary, email subscription rectangle above footer, typed.js for "Get insights on Medicomm __"
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
-- [ ] footer to all pages 
-- [ ] replace what we do cards
+- [ ] Apply footer to all pages 
+- [ ] Replace what we do card icons
 - [ ] testimonials
 - [ ] sources
 - [ ] illustrations maybe? utilizing svg's would be ideal
