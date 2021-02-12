@@ -359,9 +359,27 @@ body {
       color: #3755BE;
    }
     
-  .thirddivider {
-    background: #fff;
-  }
+     .custom-shape-divider-top-1613079776 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1613079776 svg {
+    position: relative;
+    display: block;
+    width: calc(282% + 1.3px);
+    height: 195px;
+  background: #fff !important;
+}
+
+.custom-shape-divider-top-1613079776 .shape-fill {
+    fill: #FAFAFA;
+  
+}
 /** FAQ Section **/
 .panels {
   font-family: 'Inter', sans-serif;
