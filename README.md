@@ -31,7 +31,7 @@ frequently format code to look tidy
 - [ ] Make each page responsive...
 - [ ] We will eventually have to make css files for each page
 - [ ] *animate.css* maybe so far.... will check later
-- [ ] Fast facts picture on About us
+- [ ] Fast facts picture type on About us page
 - [ ] drop shadow fade on what we do cards
 
 ### JS todo list/plans
