@@ -27,9 +27,8 @@ frequently format code to look tidy
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
 
 ### CSS todo list
-> color palette - Main:#3755be, Secondary: #fff, others: #000 (blue), #fafbfc(light white), #adadad & #d9d9d9 (grays)
+> color palette - Main: #3755be, Secondary: #fff, others: #000 (blue), #fafbfc(light white), #adadad & #d9d9d9 (grays)
 - [ ] Make each page responsive...
-- [ ] We will eventually have to make css files for each page
 - [ ] *animate.css* maybe so far.... will check later
 - [ ] Fast facts picture type on About us page
 - [ ] Add drop shadow on what we do cards
