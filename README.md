@@ -32,7 +32,7 @@ frequently format code to look tidy
 - [ ] *animate.css* maybe so far.... will check later
 - [ ] Fast facts picture type on About us page
 - [ ] Add box shadow on what we do cards
-- [ ] fix About Us shade of blue 
+- [ ] fix About Us shade of blue (waves and grid)
 
 ### JS todo list/plans
 > Later combine scripts into one js document I think
