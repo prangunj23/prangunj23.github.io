@@ -321,7 +321,6 @@ body {
     .card-hover:hover {
       background-color: #6479c3 !important;
       color: white !important;
-      cursor: default;
       cursor: pointer !important;
     }
 
