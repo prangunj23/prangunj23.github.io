@@ -32,7 +32,7 @@ frequently format code to look tidy
 - [ ] *animate.css* maybe so far.... will check later
 - [ ] Fast facts picture type on About us page
 - [ ] Add drop shadow on what we do cards
-- [ ] fix about us shade of blue 
+- [ ] fix About Us shade of blue 
 
 ### JS todo list/plans
 > Later combine scripts into one js document I think
@@ -44,7 +44,7 @@ frequently format code to look tidy
 
 ### Bugs2Fix 
 
-- [ ] (make sure navbar and footer and correct for each page)
+- [ ] (make sure navbar and footer are correct for each page)
 - [ ] fix social media icons for footer
 
 ### Fixed bugs
