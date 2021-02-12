@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  
+  <style>
+ body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: #fafafa;
+  font-family: 'Inter', sans-serif;
+  line-height: 3em;
+}
 
+.desc {
+  color: black;
+  font-weight: 600;
+  font-size: 6vh;
+}
+    
+.subdesc {
+  color: gray;
+  font-weight: 600;
+  font-size: 3vh;
+}
+
+.cd {
+  color: #3755be;
+  font-weight: 800;
+  font-size: 6vh;
+  line-height: 3em;
+}
+  </style>
+<body>
+<div class="countdown">
+  <div class="col desc">
+    Countdown 'till our 15<sup>th</sup> anniversary celebration!
+  </div>
+  
+  <div class="subdesc">
+    Medicomm &copy; was founded on October 25<sup>th</sup>
+  </div>
+  
+  <div class="col cd">
+    <span id="clock"></span></div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.js" integrity="sha512-aWlTsIGUhEq2+LQNA7Wq+OsLaouCcGGaHBWzoU9duKy26ImHe12gRtQnj4688p7QUHG+J4CMb+XwgZ8LYqQ+kQ==" crossorigin="anonymous"></script>
+<script>
+  $('#clock').countdown('2021/10/25 12:34:56')
+.on('update.countdown', function(event) {
+  var format = '%H:%M:%S';
+  if(event.offset.totalDays > 0) {
+    format = '%-d day%!d ' + format;
+  }
+  if(event.offset.weeks > 0) {
+    format = '%-w week%!w ' + format;
+  }
+  $(this).html(event.strftime(format));
+})
+.on('finish.countdown', function(event) {
+  $(this).html('This offer has expired!')
+    .parent().addClass('disabled');
+
+});
+</script>
+</body>
+</html>
