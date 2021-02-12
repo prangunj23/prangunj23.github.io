@@ -310,7 +310,6 @@ body {
 .card-hover {
   background-color: #3755BE !important;
   transition: 0.4s;
-  cursor: pointer;
 }
 
 .card-hover:hover svg {
@@ -323,6 +322,7 @@ body {
       background-color: #6479c3 !important;
       color: white !important;
       cursor: default;
+      cursor: pointer !important;
     }
 
     /* Subtext changes on card hover */
