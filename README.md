@@ -15,6 +15,7 @@ frequently format code to look tidy
 - [ ] replace what we do cards
 - [ ] testimonials
 - [ ] sources
+- [ ] illustrations maybe?
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
