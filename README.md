@@ -13,8 +13,8 @@ frequently format code to look tidy
 - [ ] Page loader animation maybe?
 - [ ] Apply footer to all pages 
 - [ ] Replace what we do card icons
-- [ ] testimonials
-- [ ] sources
+- [ ] Make testimonials section
+- [ ] sources page
 - [ ] illustrations maybe? utilizing svg's would be ideal
 - [ ] decide on illustrations vs pictures
 > *Or both*
