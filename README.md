@@ -40,7 +40,6 @@ frequently format code to look tidy
 - [ ] Back-to-top (circle w/ up arrow) button
 - [ ] Page fade transition
 - [ ] plugin to sort articles (ik what to use)
-- [ ] countup.js
 - [ ] carousel (maybe owl carousel)
 
 ### Bugs2Fix 
