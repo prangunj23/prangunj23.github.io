@@ -18,7 +18,7 @@ frequently format code to look tidy
 - [ ] sources page
 - [ ] illustrations maybe? utilizing svgs?
 - [ ] decide on illustrations vs pictures
-> *Or both*
+> *Or both*, though picturse may be better due to greater set
 
 ### HTML todo list
 
