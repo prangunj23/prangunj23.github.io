@@ -16,6 +16,7 @@ frequently format code to look tidy
 - [ ] testimonials
 - [ ] sources
 - [ ] illustrations maybe? utilizing svg's would be ideal
+- [ ] decide on illustrations vs pictures
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
