@@ -35,6 +35,7 @@ frequently format code to look tidy
 - [ ] Fast facts picture type on About us page
 - [ ] Add box shadow on what we do cards
 - [ ] fix About Us shade of blue (waves and grid)
+- [ ] change bootstrap hamburger icon
 
 ### JS todo list/plans
 > Later combine scripts into one js document I think
