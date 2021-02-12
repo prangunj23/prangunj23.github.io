@@ -16,7 +16,7 @@ frequently format code to look tidy
 - [ ] Make testimonials section
 > typed.js for testimonials header "effectword" maybe (TBD)
 - [ ] sources page
-- [ ] illustrations maybe? utilizing svg's would be ideal
+- [ ] illustrations maybe? utilizing svgs?
 - [ ] decide on illustrations vs pictures
 > *Or both*
 
