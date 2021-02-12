@@ -18,7 +18,8 @@ frequently format code to look tidy
 - [ ] sources page
 - [ ] illustrations maybe? utilizing svgs?
 - [ ] decide on illustrations vs pictures
-> *Or both*, though picturse may be better due to greater variety of types
+> *Or both*, though picturse may be better due to greater variety
+
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
