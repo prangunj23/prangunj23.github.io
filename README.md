@@ -7,7 +7,7 @@ frequently format code to look tidy
 ### General todo list
 
 - [ ] Spanish version, just link other pages to home page sections
-- [ ] News aka Press page
+- [ ] Press page
 > countdown to 25th anniversary, email subscription rectangle above footer, typed.js for "Get insights on Medicomm __"
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
