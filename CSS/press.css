@@ -56,6 +56,18 @@ body {
   margin-right: 15px;
 }
 
+.seemore {
+    color: #fff;
+    font-weight: 400 !important;
+    text-decoration: underline;
+ }
+    
+ .seemore:hover {
+    color: #fff;
+    font-weight: 400 !important;
+    text-decoration: underline;
+ }
+    
 /*** Navbar ***/
    .nav-menu-top {
      padding-top: 25px;
