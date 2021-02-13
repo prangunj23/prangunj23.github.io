@@ -219,178 +219,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       transform: rotate( 0.0deg) 
     }
 
-
+/** End Media Query**/
 }
 
     
-    /** Media Queries **/
-@media (max-width: 1199px) {
-  .heroheader, .herocontent {
-     width: 500px;   
- }
-  
-  .hookheader {
-    font-size: 44px;
-    height: 150px;
-    width: 686px;
-  }
-  .hookdesc {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 992px) {
-  .hero-section {
-    height: 125%;
-  }
-   .heroheader, .herocontent {
-     width: auto;   
-  }
-  
-  .hookheader {
-    font-size: 44px;
-    height: 150px;
-
-  }
-  .hookdesc {
-    font-size: 16px;
-  }
- #main {
-  margin-left: 5%;
-  margin-right: 5%;
- }
-    
-}
-
-@media (max-width: 852px) {
-  html {
-     overflow-x: hidden;
-     overflow-y: scroll; 
-  }
-  .hookheader {
-    font-size: 37px;
-  }
-  .hookdesc {
-    width: 686px;
-    font-size: 15px;
-  }
-  .summarydesc {
-    width: 500px;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 800px) {
-  .col-50 {
-    display: inline;
-  }
-  .hookdesc {
-    width: 600px !important;
-    font-size: 14px;
-    display: block;
-  }
-     .statement {
-    font-size: 30px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-section {
-    height: auto;
-  }
-  .heroheader {
-    height: 300px;
-  }
-  .col-50 {
-    display: inline;
-  }
-  .hookdesc {
-    width: 600px !important;
-    font-size: 14px;
-    display: block;
-  }
-  #main {
-    margin: 0% !important;
-    display: flex;
-  }
-}
-
-@media (max-width: 686px) {
-  .hookheader {
-    margin-left: 0% !important;
-    width: auto;
-  }
-  .hookdesc {
-    margin: auto;
-    width: 400px !important;
-  }
-  .summarydesc {
-    margin: 10px;
-    width: auto;
-  }
-}
-
+/** Media Queries **/
 @media (max-width: 516px) {
   .footerimg {
     width: 400px;
   }
 }
-@media (max-width: 487px) {
-  .hero-section {
-    padding-top: 0px !important; 
-  }
-  .heroheader {
-    font-size: 32px;
-    height: 270px;
-  }
-  .hookheader {
-    font-size: 28px;
-  }
-}
 
 @media (max-width: 415px) { 
-   .herocontent {
-    height: 150px;
-    }
   .footerimg {
     width: 300px;
   }
-  }
-  
-@media (max-width: 410px) { 
-   .heroheader {
-    height: 320px;
-  }
 }
-
+  
 @media (max-width: 403px) {
-  .heroheader {
-    font-size: 28px !important;
-    height: 300px;
-  }
-  .hero-section {
-    padding-top: 0px !important; 
-    height: 150%;
-  }
-  .herocontent {
-    height: 200px;
-  }
-  .hook-section {
-    height: 85%;
-  }
-  .hookheader {
-    height: 200px;
-  }
-  .hookdesc {
-    width: 300px !important;
-  }
-  .panelsheader {
-    font-size: 24px;
-    height: auto;
-    width: auto;
-  }
  .salutations {
     height: 12%;
     padding-bottom: 0px;
