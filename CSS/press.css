@@ -176,3 +176,24 @@ body {
     
     /** End media query bracket**/
 }
+
+    
+/** Media Queries **/
+@media (max-width: 516px) {
+  .footerimg {
+    width: 400px;
+  }
+}
+
+@media (max-width: 415px) { 
+  .footerimg {
+    width: 300px;
+  }
+}
+  
+@media (max-width: 403px) {
+ .salutations {
+    height: 12%;
+    padding-bottom: 0px;
+  }
+}
