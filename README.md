@@ -35,7 +35,7 @@ frequently format code to look tidy
 - [ ] *animate.css* maybe so far.... will check later
 - [ ] Fast facts picture type on About us page
 - [ ] Add box shadow on what we do cards
-- [ ] fix About Us shade of blue (waves and grid)
+- [ ] fix About Us shade of blue (grid)
 - [ ] change bootstrap hamburger icon
 
 ### JS todo list/plans
