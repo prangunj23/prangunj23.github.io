@@ -716,10 +716,12 @@ body {
  [data-aos="heroimg"] {
   opacity: 0;
   transition-property: opacity;
+  transform: translate3d(0px, 0, 0) !important;
 }
   [data-aos="heroimg"].aos-animate {
   opacity: 1;
   transform: translateZ(0);
+  transform: translate3d(0px, 0, 0) !important;
 }
     
   .footerimg {
