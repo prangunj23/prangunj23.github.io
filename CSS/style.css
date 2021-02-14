@@ -197,7 +197,7 @@ body {
   background-color: #3755BE !important;
 }
 
-/** Fast Facts Sectiion **/
+/** Fast Facts Section **/
  
 .fastfacts-section {
     font-family: 'Inter', sans-serif;
@@ -668,8 +668,9 @@ body {
     margin: 0% !important;
     display: flex;
   }
-  
-
+  .responsivehero {
+    overflow-x: hidden !important;
+  }
 }
   
 @media (max-width: 686px) {
