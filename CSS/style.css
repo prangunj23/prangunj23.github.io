@@ -634,6 +634,9 @@ body {
 @media (max-width: 800px) {
   .col-50 {
     display: inline;
+    left: 0;
+    right: 0;
+    overflow-x: hidden !important;
   }
   .hookdesc {
     width: 600px !important;
