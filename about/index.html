@@ -88,9 +88,11 @@
   </header>
 
   <body>
-    <section class="leading">
+    <section class="leading lax lax_preset_fadeInOut:232.25:0 ">
       <div data-aos="fade-up">
-        <h1 class="leadh1">About Us</h1>
+
+          <h1 class="leadh1">About Us </h1>
+       
       </div>
 
       <div data-aos="fade-up" data-aos-duration="600">
@@ -98,6 +100,7 @@
       </div>
     </section>
 
+<section>
     <div class="custom-shape-divider-bottom-1612918598">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path
@@ -115,6 +118,8 @@
     </div>
 
     <section class="ab-section"></section>
+</section>
+    
     <section class="gap"></section>
  <!-- Footer  Section -->
     <section class="footer-section">
@@ -196,9 +201,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <!-- Other scripts -->
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    
+    <!-- Lax.js -->
+    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+    <script>
+       window.onload = function () {
+    lax.init()
+
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+  }
     </script>
   </body>
 </html>
