@@ -2,7 +2,8 @@
 /** Main **/
 * { 
     -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden !important;
 }
     
 html {
@@ -16,6 +17,7 @@ html {
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden !important;
 }
 
  ::selection {  
