@@ -575,8 +575,10 @@ body {
 @media (max-width: 1199px) {
   .heroheader, .herocontent {
      width: 500px;   
- }
-  
+  } 
+  .hook-section {
+    padding-bottom: 300px;
+  }
   .hookheader {
     font-size: 44px;
     height: 150px;
@@ -593,8 +595,7 @@ body {
   }
    .heroheader, .herocontent {
      width: auto;   
-  }
-  
+  } 
   .hookheader {
     font-size: 44px;
     height: 150px;
@@ -606,14 +607,16 @@ body {
  #main {
   margin-left: 5%;
   margin-right: 5%;
- }
-    
+}
 }
 
 @media (max-width: 852px) {
   html {
-     overflow-x: hidden;
-     overflow-y: scroll; 
+     overflow-x: hidden !important;
+     overflow-y: auto; 
+  }
+  .hook-section {
+    padding-bottom: 300px;
   }
   .hookheader {
     font-size: 37px;
@@ -627,7 +630,6 @@ body {
     font-size: 15px;
   }
 }
-
 @media (max-width: 800px) {
   .col-50 {
     display: inline;
@@ -637,13 +639,12 @@ body {
     font-size: 14px;
     display: block;
   }
-     .statement {
+  .statement {
     font-size: 30px;
     padding-left: 0;
     padding-right: 0;
   }
 }
-
 @media (max-width: 768px) {
   .hero-section {
     height: auto;
@@ -663,11 +664,13 @@ body {
     margin: 0% !important;
     display: flex;
   }
-}
+  
 
+}
+  
 @media (max-width: 686px) {
   .hookheader {
-    margin-left: 0% !important;
+    margin: 10px !important;
     width: auto;
   }
   .hookdesc {
@@ -680,11 +683,6 @@ body {
   }
 }
 
-@media (max-width: 516px) {
-  .footerimg {
-    width: 400px;
-  }
-}
 @media (max-width: 487px) {
   .hero-section {
     padding-top: 0px !important; 
@@ -697,7 +695,14 @@ body {
     font-size: 28px;
   }
 }
-
+@media (max-width: 516px) {
+  .footerimg {
+    width: 400px;
+  }
+  .col-50 {
+     overflow-x: hidden;
+  }
+}
 @media (max-width: 415px) { 
    .herocontent {
     height: 150px;
@@ -706,13 +711,11 @@ body {
     width: 300px;
   }
   }
-  
 @media (max-width: 410px) { 
    .heroheader {
     height: 320px;
   }
 }
-
 @media (max-width: 403px) {
   .heroheader {
     font-size: 28px !important;
@@ -739,8 +742,15 @@ body {
     height: auto;
     width: auto;
   }
- .salutations {
+  .salutations {
     height: 12%;
     padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .heroheader {
+    font-size: 4vh !important; 
+    color: red;
   }
 }
