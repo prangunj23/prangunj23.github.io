@@ -140,6 +140,9 @@ body {
     width: 686px;
 }
 
+ .heroimg {
+    overflow-x: hidden !important;
+  }
 .custom-shape-divider-bottom-1611762507 {
     position: relative;
     bottom: 0;
