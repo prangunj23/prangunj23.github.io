@@ -566,7 +566,17 @@ body {
       transform: rotate( 0.0deg) 
     }
 
+  /** Custom CSS **/
+[data-aos="heroimg"] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transform: translate3d(100px, 0, 0);
+}
     
+[data-aos="heroimg"].aos-animate {
+  opacity: 1;
+  transform: translate3d(0px, 0, 0)
+}
     
     /** End media query bracket**/
 }
@@ -701,6 +711,15 @@ body {
   }
 }
 @media (max-width: 516px) {
+ [data-aos="heroimg"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+  [data-aos="heroimg"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+    
   .footerimg {
     width: 400px;
   }
