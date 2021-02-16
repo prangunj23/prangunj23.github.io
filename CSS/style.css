@@ -31,10 +31,12 @@ body {
 
  ::selection {  
   background: #ffe987 !important;
+  color: rgb(33, 37, 41) !important;
 }
     
 ::-moz-selection {
   background: #ffe987 !important; /* Firefox */
+  color: rgb(33, 37, 41) !important;
 }
     
 .no-select { /* class to disable text selection */
