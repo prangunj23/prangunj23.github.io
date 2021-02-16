@@ -792,6 +792,5 @@ body {
 @media (max-width: 350px) {
   .heroheader {
     font-size: 4vh !important;
-    color: red;
   }
 }
