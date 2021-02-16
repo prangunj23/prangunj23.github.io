@@ -22,7 +22,7 @@ frequently format code to look tidy
 - [ ] illustrations maybe? utilizing svgs?
 - [ ] decide on illustrations vs pictures
 > *Or both*, though picturse may be better due to greater variety
-
+- [ ] parallax somwhere
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
