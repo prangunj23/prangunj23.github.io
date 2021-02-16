@@ -316,6 +316,7 @@ body {
 
 .card-title {
   color: #ffffff !important;
+  font-size: 1.25em;
 }
 .card-text {
   font-weight: 600;
