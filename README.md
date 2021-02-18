@@ -17,7 +17,7 @@ frequently format code to look tidy
 - [ ] Apply footer to all pages 
 - [ ] Replace what we do card icons
 - [ ] Make testimonials section
-> Add blue arrow pointing down (animated?) under testimonials header 
+> Add blue arrow pointing down (static, NOT animated) under testimonials header 
 - [ ] sources page
 - [ ] illustrations maybe? utilizing svgs?
 - [ ] decide on illustrations vs pictures
