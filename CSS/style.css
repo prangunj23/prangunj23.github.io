@@ -369,6 +369,14 @@ body {
   line-height: 53px;
   vertical-align: middle;
 }
+  
+.endingblock {
+    display: block;
+  }
+  
+  .phraseinline {
+    display: inline-block !important;
+  }
 
 .underline1 {
   display: inline;
@@ -379,10 +387,6 @@ body {
   display: inline;
   color: #3755be;
 }
-
-  .phraseinline {
-    display: inline-block !important;
-  }
 
 .custom-shape-divider-top-1613079776 {
   position: relative;
