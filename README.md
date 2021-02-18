@@ -6,12 +6,12 @@ frequently format code to look tidy
 
 ### General todo list
 
-- [ ] Spanish version, just link other pages to home page sections
+- [ ] Spanish version, just home page sections
 > Make this responsive asap
 - [ ] Press page
 > email subscription rectangle above footer, typed.js for "Get insights on Medicomm __"
 
-> "Recent Articles". Articles have title, descripition, date, views, and tags (via bootstrap badges. maybe use isotope for this as well). Articles themselves can have static likes (again bootstrap badges)?
+> "Recent Articles". Articles have title, descripition, date, views, and tags (via bootstrap badges. maybe use isotope for this as well). 
 - [ ] Back to top arrow
 - [ ] Page loader animation maybe?
 - [ ] Apply footer to all pages 
@@ -21,8 +21,10 @@ frequently format code to look tidy
 - [ ] sources page
 - [ ] illustrations maybe? utilizing svgs?
 - [ ] decide on illustrations vs pictures
-> *Or both*, though picturse may be better due to greater variety
-- [ ] parallax somwhere
+> *Or both*, though pictures may be better due to greater variety
+- [ ] parallax somwhere maybe
+- [ ] maybe learn more with arrow for hook section
+- [ ] 
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
