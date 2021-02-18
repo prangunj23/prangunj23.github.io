@@ -376,8 +376,13 @@ body {
 }
 
 .effectword {
+  display: inline;
   color: #3755be;
 }
+
+  .phraseinline {
+    display: inline-block !important;
+  }
 
 .custom-shape-divider-top-1613079776 {
   position: relative;
