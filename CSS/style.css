@@ -372,6 +372,7 @@ body {
   
 .endingblock {
     display: block;
+    height: 5%;
   }
   
   .phraseinline {
@@ -387,7 +388,13 @@ body {
   display: inline;
   color: #3755be;
 }
-
+  
+ .svgarrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
 .custom-shape-divider-top-1613079776 {
   position: relative;
   top: 0;
