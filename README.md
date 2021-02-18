@@ -24,7 +24,7 @@ frequently format code to look tidy
 > *Or both*, though pictures may be better due to greater variety
 - [ ] parallax somwhere maybe
 - [ ] maybe learn more with arrow for hook section
-- [ ] 
+
 ### HTML todo list
 
 - [ ] Fix navbar for each page other than homepage (copy paste homepage code)
