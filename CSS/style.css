@@ -415,6 +415,56 @@ body {
 .custom-shape-divider-top-1613079776 .shape-fill {
   fill: #fafafa;
 }
+  
+.testimonials-section {
+  font-family: "Inter", sans-serif;
+  height: auto;
+  width: 100% !important;
+  margin: auto;
+  background-color: #fff;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.testimonialsheading {
+  padding-top: 5px;
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  color: rgb(33, 37, 41);
+  display: block;
+  font-size: 52.5px !important;
+  height: 107px;
+  letter-spacing: -1.575px;
+  line-height: 57.75px;
+}
+
+  .testimonialcards {
+    margin-top: 50px;
+  }
+
+.ting .card-text {
+  font-size: 16px;
+  color: black !important;
+  font-weight: 400;
+}
+
+.ting .card {
+  padding-bottom: 30px;
+  padding-top: 12px;
+  border-radius: 10px;
+  background-color: #fff !important;
+  color: black !important;
+}
+
+  .fromwho {     
+  font-weight: 600;
+  color: #3755be !important;
+  }
+  .fromwhosize {
+    font-size: 13px;
+  }
+  
 /** FAQ Section **/
 .panels {
   font-family: "Inter", sans-serif;
