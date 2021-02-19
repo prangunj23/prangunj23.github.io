@@ -866,3 +866,9 @@ body {
     font-size: 4vh !important;
   }
 }
+  
+p.mobile { display: none }
+@media (max-width: 640px) {
+    p.mobile { display: block }
+    p.computer { display: none }
+}
