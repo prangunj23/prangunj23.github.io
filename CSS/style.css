@@ -461,10 +461,14 @@ body {
   font-weight: 600;
   color: #3755be !important;
   }
+  
   .fromwhosize {
     font-size: 13px;
   }
   
+  .customb {
+    border-radius: 10px !important;
+  }
 /** FAQ Section **/
 .panels {
   font-family: "Inter", sans-serif;
