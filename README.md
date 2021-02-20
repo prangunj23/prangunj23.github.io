@@ -5,7 +5,7 @@ Medicomm Telecommunications
 frequently format code to look tidy
 # asap
 - check for any html tag bugs on ALL pages
-> Done: home, about, products, services, covid19,
+> Done: home, about, products, services, covid19, contacts
 - format code on ALL pages
 - announcement bar all pages
 - finish about us
