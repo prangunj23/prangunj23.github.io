@@ -872,3 +872,7 @@ p.mobile { display: none }
     p.mobile { display: block }
     p.computer { display: none }
 }
+
+body {
+  font-family: Inter;
+}
