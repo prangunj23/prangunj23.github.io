@@ -867,12 +867,3 @@ body {
   }
 }
   
-p.mobile { display: none }
-@media (max-width: 640px) {
-    p.mobile { display: block }
-    p.computer { display: none }
-}
-
-body {
-  font-family: Inter;
-}
