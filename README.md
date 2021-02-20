@@ -3,6 +3,16 @@ Medicomm Telecommunications
 
 ---
 frequently format code to look tidy
+# asap
+- check for any html tag bugs
+- announcement bar all pages
+- finish about us
+- finish press page
+- finish espanol page
+- finish sources
+- add footer to __all__ pages
+- add image with description column on homepage
+- style products and services maybe, different style for contacts maybe
 
 ### General todo list
 
