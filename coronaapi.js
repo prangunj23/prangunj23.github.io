@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(data => {
           const deaths = data[0];
-          document.querySelector('.coronadeathinfo').innerHTML = deaths.death + " have died from the coronavirus pandemic this year in the United States";
+          document.querySelector('.coronadeathsinfo').innerHTML = deaths.death + " have died from the coronavirus pandemic this year in the United States";
           
        });
               
