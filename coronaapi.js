@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(data => {
          const globalinfo = data[0];
-         document.querySelector('.globaldeathsinfo').innerHTML = globalinfo.deaths;
+         document.querySelector('.globaldeathsinfo').innerHTML = thousands_seperators(globalinfo.deaths) + " people have died from the coronavirus pandemic this year in the world.";
          
 });
 });
