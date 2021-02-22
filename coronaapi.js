@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
          
           var localinfo = data[0];
           document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(localinfo.death) + " people";
-          document.querySelector('.coronavaccinesinfo').innerHTML = thousands_separators(localinfo.positive) + " people";
+          document.querySelector('.coronacasesinfo').innerHTML = thousands_separators(localinfo.positive) + " people";
           
        });
       
