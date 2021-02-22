@@ -816,6 +816,14 @@ body {
     overflow-x: hidden;
   }
 }
+@media (max-width: 442px) {  
+  .panelsheader {
+    font-size: 26px;
+    height: auto;
+    width: auto;
+  }
+ }
+  
 @media (max-width: 415px) {
   .herocontent {
     height: 150px;
