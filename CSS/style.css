@@ -610,6 +610,11 @@ body {
   color: #fff !important;
 }
 
+ .socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .salutations {
   display: inline-block;
   height: 8%;
