@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
          
           var localinfo = data[0];
-          document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(localinfo.death) + " people have died from the coronavirus pandemic this year in the United States.";
-          document.querySelector('.coronavaccinesinfo').innerHTML = thousands_separators(localinfo.positive) + " people have contracted the coronavirus in the United States.";
+          document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(localinfo.death) + " people";
+          document.querySelector('.coronavaccinesinfo').innerHTML = thousands_separators(localinfo.positive) + " people";
           
        });
       
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(data => {
          var globalinfo = data[0];
-         document.querySelector('.globaldeathsinfo').innerHTML = thousands_separators(globalinfo.deaths) + " people have died from the coronavirus pandemic this year in the world.";
-         document.querySelector('.globalcasesinfo').innerHTML = thousands_separators(globalinfo.confirmed) + " people have contracted the coronavirus in the world.";
+         document.querySelector('.globaldeathsinfo').innerHTML = thousands_separators(globalinfo.deaths) + " people";
+         document.querySelector('.globalcasesinfo').innerHTML = thousands_separators(globalinfo.confirmed) + " people";
 });
 });
