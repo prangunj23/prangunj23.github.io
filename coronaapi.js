@@ -26,6 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
          var globalinfo = data[0];
          document.querySelector('.globaldeathsinfo').innerHTML = thousands_separators(globalinfo.deaths) + " people have died from the coronavirus pandemic this year in the world.";
-         
+         document.querySelector('.globalcasesinfo').innerHTML = thousands_separators(globalinfo.confirmed) + " people have contracted the coronavirus in the world.";
 });
 });
