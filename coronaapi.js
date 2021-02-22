@@ -13,12 +13,5 @@ document.addEventListener('DOMContentLoaded', function() {
           document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(localinfo.death) + " people have died from the coronavirus pandemic this year in the United States";
           document.querySelector('.coronavaccinesinfo').innerHTML = thousands_separators(localinfo.positive) + " people have contracted the coronavirus in the United States";
           
-       });
-    fetch('https://api.covid19api.com/summary')
-      .then(response => response.json())
-      .then(data => {
-           
-          console.log(data);
-  });
-      
+       });  
 });
