@@ -108,8 +108,8 @@ body {
 }
 
 /** Press Hook Section **/
-.custom-shape-divider-bottom-1614093076 {
-    position: relative;
+.custom-shape-divider-bottom-1614093263 {
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -117,15 +117,15 @@ body {
     line-height: 0;
 }
 
-.custom-shape-divider-bottom-1614093076 svg {
+.custom-shape-divider-bottom-1614093263 svg {
     position: relative;
     display: block;
     width: calc(287% + 1.3px);
     height: 210px;
 }
 
-.custom-shape-divider-bottom-1614093076 .shape-fill {
-    fill: #FFFFFF;
+.custom-shape-divider-bottom-1614093263 .shape-fill {
+    fill: #FAFBFC;
 }
     
   .gap {
