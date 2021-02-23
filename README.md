@@ -11,8 +11,6 @@ frequently format code to look tidy
 - finish press page
 - finish espanol page
 - finish sources
-- add footer to __all__ pages
-> fix facebook and IG icons (in regards to circle around them and center them on footer)
 - add image with description column on homepage
 - style products and services maybe, different style for contacts maybe
 
