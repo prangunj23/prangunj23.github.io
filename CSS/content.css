@@ -5,7 +5,7 @@ p.mobile { display: none }
 }
 
 body {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 
 td, th {
