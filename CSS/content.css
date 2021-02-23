@@ -11,6 +11,6 @@ body {
 td, th {
     border: 1px solid #999;
     padding: 0.5rem;
-    border-color: blue;
-    color: blue;
+    border-color:  #3755be;
+    color:  #3755be;
 }
