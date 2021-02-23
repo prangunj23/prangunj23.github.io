@@ -107,8 +107,27 @@ body {
     transform: scaleX(0.3);
 }
 
+/** Press Hook Section **/
+.custom-shape-divider-bottom-1614093076 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1614093076 svg {
+    position: relative;
+    display: block;
+    width: calc(287% + 1.3px);
+    height: 210px;
+}
 
+.custom-shape-divider-bottom-1614093076 .shape-fill {
+    fill: #FFFFFF;
+}
+    
   .gap {
     content: "";
     background: #fff;
