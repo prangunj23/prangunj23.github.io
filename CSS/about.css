@@ -129,7 +129,9 @@ form,fieldset,input,textarea,p,blockquote,th,td {
   font-size: 4rem !important;
   color: black;
 }
-
+.desc {
+  height: 150px;	
+}
 .impactword {
   color: #3755be;
   text-decoration: underline #6b8cff;
@@ -161,6 +163,25 @@ hr {
 	
 .centerdesc {
   margin-top: 2.5%;
+}
+
+.desclink {
+  
+  color: black;
+  font-weight: 600;
+}
+.desclink:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.arrow {
+  padding-left: 2px;
+  transition: 0.3s;
+}
+
+.desclink:hover .arrow {
+  padding-left: 8px;
 }
 /** Filler Section **/
   .gap {
