@@ -274,6 +274,15 @@ body {
 
     
 /** Media Queries **/
+@media (max-width: 992px) {
+.articlesection {
+      font-family: 'Inter', sans-serif;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+  }
+}
 @media (max-width: 516px) {
   .footerimg {
     width: 400px;
