@@ -116,7 +116,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
   margin-bottom: 25px;
 }
 	
-h1 {
+.h1desc {
   font-family: "Inter", sans-serif !important;
   font-weight: 900;
   font-size: 4rem !important;
