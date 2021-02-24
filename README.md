@@ -2,7 +2,6 @@
 Medicomm Telecommunications
 
 ---
-frequently format code to look tidy
 # asap
 - format code on ALL pages
 - finish espanol page
