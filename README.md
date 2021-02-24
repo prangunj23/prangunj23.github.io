@@ -14,10 +14,7 @@ frequently format code to look tidy
 
 - [ ] Spanish version, just home page sections
 > Make this responsive asap
-- [ ] Press page
-> "Recent Articles". Articles have title, descripition, date, views, and tags (via bootstrap badges. maybe use isotope for this as well). 
 - [ ] Page loader animation maybe?
-- [ ] Apply footer to all pages 
 - [ ] Replace what we do card icons
 - [ ] sources page
 - [ ] maybe learn more with arrow for hook section
@@ -30,11 +27,6 @@ frequently format code to look tidy
 - [ ] Make each page responsive...
 - [ ] Fast facts picture type on About us page
 - [ ] Add box shadow on what we do cards
-
-### JS todo list/plans
-> Later combine scripts into one js document I think
-- [ ] Preloader
-- [ ] plugin to sort articles (ik what to use)
 
 
 ### Fixed bugs
