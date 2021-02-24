@@ -169,8 +169,10 @@ body {
   }
     /** Press Hook Section **/
   .articlesection {
+    margin-top: 5%;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 5%;
   }
   .articletitle {
      font-family: 'Inter', sans-serif;
