@@ -28,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <link rel="stylesheet" href="https://alvarotrigo.com/pagePiling/jquery.pagepiling.css" />
   </head>
 
   <header>
@@ -175,16 +175,34 @@ remodeling
       AOS.init();
     </script>
     
-    <!-- Lax.js -->
-    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+    <!-- Page Piling JS -->
+    <script src="https://alvarotrigo.com/pagePiling/jquery.pagepiling.min.js"></script>
     <script>
-       window.onload = function () {
-    lax.init()
-
-    lax.addDriver('scrollY', function () {
-      return window.scrollY
-    })
-  }
+ $(document).ready(function() {
+			/*
+			* Plugin intialization
+			*/
+	    	$('#pagepiling').pagepiling({
+	    		menu: '#menu',
+	    		scrollingSpeed: 700,
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+			   	},
+          
+          onLeave: function(index, nextIndex, direction){
+			//after leaving section 2
+			if(index == 1 && direction =='down'){
+				jQuery('.section [data-aos]').removeClass("aos-animate");  
+			}
+		},
+          afterLoad: function(){
+        jQuery('.section.active [data-aos]').addClass("aos-animate");
+       //jQuery('.fp-table.active .aos-init').addClass('aos-animate');
+    }
+          
+			});
+});
     </script>
   </body>
 </html>
