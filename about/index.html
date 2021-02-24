@@ -31,16 +31,16 @@
     <link rel="stylesheet" href="https://alvarotrigo.com/pagePiling/jquery.pagepiling.css" />
   </head>
 
-  <header>
-    <!-- Announcement bar-->
-    <div class="announcement">
+	<body>
+  <ul id="menu">
+		<div class="announcement">
       <p><span class="badge badge-secondary">New</span> Virtual sessions with therapists are now available! 🎉</p>
     </div>
 
     <!--Navigation bar-->
-    <nav class="nav-menu-top navbar navbar-expand-lg navbar-light">
+    <nav class="nav-menu-top navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="ml-auto">
-        <a class="navbar-brand" href="https://medicomm.org"><img src="/assets/images/medicomm-logo.png" width="" height="53.5" class="d-inline-block align-top" alt="" /></a>
+        <a class="navbar-brand" href="https://medicomm.org"><img src="/assets/images/medicomm-logo.png" width="" height="53.5" class="d-inline-block align-top" alt="Medicomm Nav Logo" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,23 +50,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto"></ul>
 
+          <!-- ul Class begins -->
           <ul class="navbar navbar-nav my-2 my-sm-0">
-            <li class="nav-item">
-              <a class="nav-link" href="https://medicomm.org">Home</a>
-            </li>
-
+            <!-- Home -->
             <li class="nav-item active">
-              <a class="nav-link" href="https://medicomm.org/about/">About Us <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="https://medicomm.org">Home <span class="sr-only">(current)</span></a>
             </li>
 
+            <!-- About Us -->
+            <li class="nav-item">
+              <a class="nav-link" href="https://medicomm.org/about/">About Us</a>
+            </li>
+
+            <!--- Products -->
             <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/products/">Products</a>
             </li>
 
+            <!--- Services -->
             <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/Services/">Services</a>
             </li>
 
+            <!-- Covid 19 -->
             <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/Covid-19/">Covid-19</a>
             </li>
@@ -76,93 +82,75 @@
               <a class="nav-link" href="https://medicomm.org/sources/">Sources</a>
             </li>
 
+            <!--- Contact -->
             <li class="nav-item">
               <a class="nav-link" href="https://medicomm.org/contacts/">Contact</a>
             </li>
+
+            <!-- ul Class ends -->
           </ul>
         </div>
       </div>
     </nav>
-  </header>
+		
+	</ul>
 
-  <body>
-remodeling
-    
-    <section class="gap"></section>
- <!-- Footer  Section -->
-    <section class="footer-section">
-      <footer class="pb-4 bg-primary-3 text-light">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col">
-              <a href="http://medicomm.org/">
-                <img src="/assets/images/medicomm-logo.png" alt="Medicomm Logo" class="mb-3 footerimg" />
-              </a>
-              <p><b>Medicomm</b> is a medical telecommunications company dedicated to producing medical utilities and equipment for all companies, big or small! Join or partner with us today</p>
-            </div>
 
-            <div class="col-6 col-lg col-xl-2">
-              <h5 class="fsubhead">Company</h5>
-              <ul class="nav flex-column">
-                <li class="footerlink">
-                  <a href="https://medicomm.org/" class="footerlink">Home</a>
-                </li>
-                <li class="footerlink">
-                  <a href="https://medicomm.org/about/" class="footerlink">About</a>
-                </li>
-                <li class="footerlink">
-                  <a href="https://medicomm.org/products/" class="footerlink">Products</a>
-                </li>
-                <li class="footerlink">
-                  <a href="https://medicomm.org/Services/" class="footerlink">Services</a>
-                </li>
-                <li class="footerlink">
-                  <a href="https://medicomm.org/Covid-19/" class="footerlink">Covid-19</a>
-                </li>
-                <li class="footerlink">
-                  <a href="https://medicomm.org/sources/" class="footerlink">Sources</a>
-                </li>
-              </ul>
-            </div>
 
-            <div class="col-6 col-lg-3">
-              <h5 class="fsubhead">Support</h5>
 
-              <ul class="nav flex-column">
-                <li class="footerlink">
-                  <a href="https://medicomm.org/contacts/" class="footerlink">Contact Us</a>
-                </li>
 
-                <li class="footerlink">
-                  <a href="https://medicomm.org/press/" class="footerlink">Press</a>
-                </li>
-
-                <li class="footerlink">
-                  <a href="https://medicomm.org/es/" class="footerlink">Español</a>
-                </li>
-              </ul>
-            </div>
-          <div class="socialmediaicons" style= "margin: 0 auto; display: block;">
-           <a href="#" class="fa fa-facebook"></a>
-           <a href="#" class="fa fa-instagram"></a>
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+        <div data-aos="fade">
+	    	<h1>สวัสดีเนม</h1>
+			<p>Create an original scrolling site by pagePiling.js</p>
         </div>
-          </div>
 
-          <div class="row justify-content-center">
-            <div class="col col-md-auto text-center">
-              <div class="border-top pt-2">
-                <small class="text-light">Copyright &copy; 2020-2021 All rights reserved | Medicomm Telecommunications</small>
-              </div>
-            </div>
-          </div>
+	    </div>
+	    <div class="section" id="section2">
+	    	 
+        <div class="row justify-content-around">
+           
+    <div class="col-6">
+       <div data-aos="fade-in" data-aos-duration="300">
+        <h1>jQuery plugin</h1>
+        </div>
+    </div>
+             
+    <div class="col-6">
+      <img src="https://raw.githubusercontent.com/prangunj23/prangunj23.github.io/main/assets/images/medicomm_favicon_270.png" alt="Medicomm Hero Picture" />
+    </div>
+  </div>
+
+	    </div>
+    
+    <!-- Section 3 -->
+	    <div class="section" id="section3">
+        <div class="container">
+        <div class="row text-left  justify-content-between">
+           
+    <div class="col-6">
+       <div data-aos="fade" data-aos-duration="600" data-aos-mirror="true">
+        <h1>Phenomenal ideas</h1>
         </div>
       
-      </footer>
-    </section>
-
-    <div class="salutations">
-      <p>Thanks for visiting! We hope you to see you again soon <span class="wave">👋</span></p>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin cursus arcu vel suscipit. Proin rutrum maximus dui, non blandit odio malesuada eget. Nunc sit amet nulla ut diam dapibus ultrices. Fusce blandit nisi in nisl pellentesque pharetra. Sed porttitor a enim et rhoncus</p>
     </div>
+            
+    <div class="col-4">
+      
+      <img src="https://raw.githubusercontent.com/prangunj23/prangunj23.github.io/main/assets/images/medicomm_favicon_270.png" alt="Medicomm Hero Picture" />
+      
+    </div>
+  </div>
+	    </div>
+    </div> 
+    
+	    <div class="section" id="section4">
+	    		<h1>Test</h1>
+	    </div>
+	</div>
     
     <!-- Bootstrap required scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
