@@ -283,6 +283,13 @@ body {
 
   }
 }
+  @media (max-width: 768px) {
+.articlesection {
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+}
 @media (max-width: 516px) {
   .footerimg {
     width: 400px;
