@@ -167,13 +167,13 @@ hr {
 }
 
 .desclink {
-  
+  transition: 0.3s;
   color: black;
   font-weight: 600;
 }
 .desclink:hover {
   text-decoration: none !important;
-  color: black !important;
+  color: #3755be; !important;
 }
 
 .arrow {
