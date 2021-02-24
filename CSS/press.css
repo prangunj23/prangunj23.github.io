@@ -167,6 +167,35 @@ body {
     height: 20%;
     width: 100%;
   }
+    /** Press Hook Section **/
+  .articlesection {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .articletitle {
+     font-family: 'Inter', sans-serif;
+   font-size: 2rem;
+   font-weight: 800 !important;
+  }
+  
+  blockquote {
+     border-radius: 10px;
+    padding: 15px;
+    background: #e3e6e8;
+    color: black;
+  }
+  blockquote p {
+     font-family: 'Inter', sans-serif;
+   font-size: 1.125rem;
+   font-weight: 600 !important;
+    margin: 15px;
+  }
+    blockquote footer {
+     font-family: 'Inter', sans-serif;
+   font-size: 1.125rem;
+   font-weight: 600 !important;
+    margin: 15px;
+  }
 /*** Footer Section ***/
 .footer-section {
     font-family: 'Inter', sans-serif !important;
