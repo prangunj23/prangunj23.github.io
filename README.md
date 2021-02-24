@@ -4,11 +4,7 @@ Medicomm Telecommunications
 ---
 frequently format code to look tidy
 # asap
-- check for any html tag bugs on ALL pages
-> Done: home, about, products, services, covid19, contacts, press
 - format code on ALL pages
-- finish about us
-- finish press page
 - finish espanol page
 - finish sources
 - add image with description column on homepage
@@ -19,7 +15,6 @@ frequently format code to look tidy
 - [ ] Spanish version, just home page sections
 > Make this responsive asap
 - [ ] Press page
-
 > "Recent Articles". Articles have title, descripition, date, views, and tags (via bootstrap badges. maybe use isotope for this as well). 
 - [ ] Page loader animation maybe?
 - [ ] Apply footer to all pages 
