@@ -114,6 +114,7 @@ h1 {
 }
 
 hr {
+    margin-left: 0;
     max-width: 50px;
     color: #3755be !important;
     border-color: #3755be;
