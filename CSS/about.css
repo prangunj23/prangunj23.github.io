@@ -265,6 +265,32 @@ hr {
 
     
 /** Media Queries **/
+@media (max-width: 992px) {
+ .aboutimage {
+  display: none;
+  }
+  .desclink {
+  padding: 10px;
+  border: 3px solid black;
+  transition: 0.3s;
+  color: black;
+  font-weight: 600;
+}
+.desclink:hover {
+  border: 3px solid #3755be;
+  background: #3755be;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.arrow {
+  padding-left: 2px;
+  transition: 0s;
+}
+  .desclink:hover .arrow {
+  padding-left: 2px;
+	}
+}
 @media (max-width: 516px) {
   .footerimg {
     width: 400px;
