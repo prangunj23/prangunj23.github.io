@@ -3,7 +3,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    font-family: "Inter", sans-serif !important;
    }
     
 html {
@@ -47,6 +47,17 @@ html {
 }
 
 /*** Navbar ***/
+    
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
    .nav-menu-top {
      padding-top: 25px;
    }
@@ -84,59 +95,39 @@ html {
 .nav-item .nav-link:hover::after {
     transform: scaleX(0.3);
 }
-    
-.custom-shape-divider-bottom-1612918598 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+/** Custom **/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
 }
 
-.custom-shape-divider-bottom-1612918598 svg {
-    position: relative;
-    display: block;
-    width: calc(200% + 1.3px);
-    height: 170px;
+.section {
+	text-align: center;
 }
 
-.custom-shape-divider-bottom-1612918598 .shape-fill {
-    fill: #3755be;
+h1 {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 900;
+  font-size: 4rem !important;
+  color: black;
 }
 
-.leading {
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-top: 150px;
-  font-family: 'Inter', sans-serif;
-  margin-bottom: 225px;
-  position: relative;
-  z-index: -1;
+hr {
+    max-width: 50px;
+    color: #3755be !important;
+    border-color: #3755be;
+    border-width: 6px;  
 }
 
-.leadh1 {
- font-size: 10vh;
-  font-family: 'Inter', sans-serif;
-  font-weight: 900; 
+#section1 {
+  background: #3755be !important;
 }
-
-.impactword {
-    color: #3755be;
-    font-weight: 800 !important;
-  }
-
-/*** Filler 2 Section ***/
-.ab-section {
-     height: 100% !important;
-     padding-top: 850px;
-     text-align: center;
-     background-color: #3755be;
-     width: 100% !important;
+#section2 {
+  background: #fafbfc !important;
+}
+#section3 {
+  background: #d9d9d9 !important;
 }
 
 /** Filler Section **/
