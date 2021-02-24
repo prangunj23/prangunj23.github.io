@@ -130,6 +130,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
   color: black;
 }
 .desc {
+  margin-top: 25px;
   height: 150px;	
 }
 .impactword {
