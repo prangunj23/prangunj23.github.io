@@ -139,13 +139,22 @@ hr {
 #section1 {
   background: #3755be !important;
 }
+	
 #section2 {
   background: #fafbfc !important;
 }
+	
 #section3 {
   background: #d9d9d9 !important;
 }
-
+	
+#section4 {
+  background: white;
+}
+	
+.centerdesc {
+  margin-top: 2.5%;
+}
 /** Filler Section **/
   .gap {
     content: "";
