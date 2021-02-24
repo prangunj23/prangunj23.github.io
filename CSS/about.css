@@ -123,6 +123,11 @@ form,fieldset,input,textarea,p,blockquote,th,td {
   color: black;
 }
 
+.impactword {
+  color: #3755be;
+  text-decoration: underline #6b8cff;
+}
+	
 hr {
     margin-left: 0;
     max-width: 50px;
