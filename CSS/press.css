@@ -21,6 +21,12 @@ body {
   background: #ffe987 !important; /* Firefox */
 }
     
+.impactword {
+    display: inline;
+  text-decoration: underline #6b8cff;
+    color: #3755be !important;
+}    
+    
 .no-select { /* not in use here yet, but a class to disable text selection */
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;  /* Chrome all / Safari */
