@@ -30,6 +30,18 @@ body {
 .medicommtextblue {
    color: #3755be !important;
  }
+  .anone {
+    text-decoration: none;
+    color: currentColor;
+  }
+  .anone:hover {
+    text-decoration: none;
+    color: currentColor;
+  }
+  .articlesmall {
+    float: right;
+  }
+    
 .no-select { /* not in use here yet, but a class to disable text selection */
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;  /* Chrome all / Safari */
