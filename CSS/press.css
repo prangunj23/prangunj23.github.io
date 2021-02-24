@@ -232,7 +232,11 @@ body {
 .card-link:hover .arrow{
     padding-left: 8px;
 }
-    /** Press Article Styling **/
+ .forcecenter {
+  margin-left: 25%;
+  margin-right: 25%;
+  }
+/** Press Article Styling **/
   .articlesection {
         font-family: 'Inter', sans-serif;
     margin-top: 5%;
