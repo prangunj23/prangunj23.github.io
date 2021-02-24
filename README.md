@@ -54,12 +54,7 @@ frequently format code to look tidy
 - [ ] Back-to-top (circle w/ up arrow) button
 - [ ] Page fade transition
 - [ ] plugin to sort articles (ik what to use)
-- [ ] carousel (maybe owl carousel)
 
-### Bugs2Fix 
-
-- [ ] (make sure navbar and footer are correct for each page)
-- [ ] fix social media icons for footer
 
 ### Fixed bugs
 - [x] Fix [thing]
