@@ -138,6 +138,10 @@ html {
      text-align: left;
      background-color: #fafbfc;
      width: 100% !important;
+     margin-top: 5%;
+     margin-left: 25%;
+     margin-right: 25%;
+     margin-bottom: 5%;
 }
 
 /** Filler Section **/
