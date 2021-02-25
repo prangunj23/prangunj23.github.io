@@ -13,7 +13,6 @@ Medicomm Telecommunications
 
 - [ ] Spanish version, just home page sections
 > Make this responsive asap
-- [ ] Page loader animation maybe?
 - [ ] Replace what we do card icons
 - [ ] sources page
 - [ ] maybe learn more with arrow for hook section
