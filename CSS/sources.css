@@ -168,12 +168,16 @@ html {
      margin-bottom: 5%;
 }
 
-      .articletitle {
+ .articletitle {
      font-family: 'Inter', sans-serif;
    font-size: 2rem;
    font-weight: 800 !important;
   }
-  
+   .articlesubtitle {
+     font-family: 'Inter', sans-serif;
+   font-size: 1.125rem;
+   font-weight: 800 !important;
+  }
  blockquote {
      border-radius: 10px;
     padding: 15px;
