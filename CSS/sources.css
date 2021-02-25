@@ -12,6 +12,8 @@ html {
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden !important;
 }
  ::selection {  
   background: #ffe987 !important;
@@ -20,7 +22,26 @@ html {
 ::-moz-selection {
   background: #ffe987 !important; /* Firefox */
 }
-  
+.impactword {
+    display: inline;
+    text-decoration: underline #6b8cff;
+    color: #3755be !important;
+}    
+.medicommtextblue {
+   color: #3755be !important;
+ }
+  .anone {
+    text-decoration: none;
+    color: currentColor;
+  }
+  .anone:hover {
+    text-decoration: none;
+    color: currentColor;
+  }
+  .articlesmall {
+    float: right;
+  }
+    
 /** Announcement bar **/
  .announcement {
    display: inline-block;
@@ -140,6 +161,7 @@ html {
      background-color: #fafbfc;
      width: 100% !important;
 }
+
 .ab-subsection {
      margin-top: 5%;
      margin-left: 25%;
@@ -147,6 +169,30 @@ html {
      margin-bottom: 5%;
 }
 
+      .articletitle {
+     font-family: 'Inter', sans-serif;
+   font-size: 2rem;
+   font-weight: 800 !important;
+  }
+  
+ blockquote {
+     border-radius: 10px;
+    padding: 15px;
+    background: #e3e6e8;
+    color: black;
+  }
+  blockquote p {
+     font-family: 'Inter', sans-serif;
+   font-size: 1.125rem;
+   font-weight: 600 !important;
+    margin: 15px;
+  }
+    blockquote footer {
+     font-family: 'Inter', sans-serif;
+   font-size: 1.125rem;
+   font-weight: 600 !important;
+    margin: 15px;
+  }
 /** Filler Section **/
   .gap {
     content: "";
