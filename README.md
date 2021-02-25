@@ -5,7 +5,6 @@ Medicomm Telecommunications
 # asap
 - format code on ALL pages
 - finish espanol page
-- finish sources
 - add image with description column on homepage
 - style products and services maybe, different style for contacts maybe
 
@@ -14,7 +13,6 @@ Medicomm Telecommunications
 - [ ] Spanish version, just home page sections
 > Make this responsive asap
 - [ ] Replace what we do card icons
-- [ ] sources page
 - [ ] maybe learn more with arrow for hook section
 
 ### HTML todo list
