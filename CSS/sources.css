@@ -22,6 +22,9 @@ html {
 ::-moz-selection {
   background: #ffe987 !important; /* Firefox */
 }
+.manualhighlight {
+    background: #ffe987 !important;
+   }
 .impactword {
     display: inline;
     text-decoration: underline #6b8cff;
