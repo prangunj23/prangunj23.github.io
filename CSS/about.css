@@ -184,6 +184,10 @@ hr {
 .desclink:hover .arrow {
   padding-left: 8px;
 }
+
+.about1img {
+  margin-top: 75px;
+}
 /** Filler Section **/
   .gap {
     content: "";
