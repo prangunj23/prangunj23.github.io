@@ -159,7 +159,8 @@ html {
 }
 /*** Filler 2 Section ***/
 .ab-section {
-     height: 150vh !important;
+     height: auto !important;
+     padding-bottom: 150px;
      text-align: left;
      background-color: #fafbfc;
      width: 100% !important;
