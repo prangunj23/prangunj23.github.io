@@ -172,6 +172,7 @@ html {
 }
 
  .articletitle {
+     margin-top: 150px;
      font-family: 'Inter', sans-serif;
    font-size: 2rem;
    font-weight: 800 !important;
