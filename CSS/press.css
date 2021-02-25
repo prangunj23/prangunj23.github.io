@@ -381,6 +381,13 @@ body {
 
   }
 }
+ @media (max-width: 992px) {
+  .card {
+    width: 75vw;
+    margin-left: -25%;
+    margin-right: 75% !important;
+  }
+     
   @media (max-width: 768px) {
 .articlesection {
     margin-left: 10%;
