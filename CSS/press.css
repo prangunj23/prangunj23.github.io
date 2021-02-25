@@ -212,7 +212,9 @@ body {
   font-size: 1rem;
   color: rgb(33, 37, 41);
   margin: auto;
-  width: 836px;
+     flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 100px;
   vertical-align: middle;
