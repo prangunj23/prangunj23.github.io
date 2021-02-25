@@ -154,6 +154,9 @@ html {
     font-weight: 800 !important;
   }
 
+    .hooksvg {
+  background-color: #3755be !important;
+}
 /*** Filler 2 Section ***/
 .ab-section {
      height: 150vh !important;
