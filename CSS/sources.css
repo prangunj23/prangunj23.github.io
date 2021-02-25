@@ -28,6 +28,8 @@ html {
     color: #3755be !important;
 }    
 .medicommtextblue {
+    display: inline;
+    font-family: 'Inter', sans-serif;
    color: #3755be !important;
  }
   .anone {
