@@ -23,7 +23,6 @@ Medicomm Telecommunications
 
 ### CSS todo list
 - [ ] Make each page responsive...
-- [ ] Fast facts picture type on About us page
 - [ ] Add box shadow on what we do cards
 
 
