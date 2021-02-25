@@ -15,13 +15,17 @@ html {
     overflow-y: auto;
     overflow-x: hidden !important;
 }
- ::selection {  
-  background: #ffe987 !important;
-}
     
+::selection {
+  background: #ffe987 !important;
+  color: rgb(33, 37, 41) !important;
+}
+
 ::-moz-selection {
   background: #ffe987 !important; /* Firefox */
+  color: rgb(33, 37, 41) !important;
 }
+
 .manualhighlight {
     background: #ffe987 !important;
    }
