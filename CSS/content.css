@@ -1,56 +1,61 @@
-p.mobile { display: none }
+p.mobile {
+  display: none;
+}
 @media (max-width: 640px) {
-    p.mobile { display: block }
-    p.computer { display: none }
+  p.mobile {
+    display: block;
+  }
+  p.computer {
+    display: none;
+  }
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-td, th {
-    border: 1px solid #999;
-    padding: 0.5rem;
-    border-color:  #0645AD;
-    color:  #0645AD;
+td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  border-color: #0645ad;
+  color: #0645ad;
 }
 
- .fa {
-          padding: 10px;
-         font-size: 30px;
-        
-         text-align: center;
-      }
-      
-      .fa:hover {
-        text-decoration: none;
-        color: white;
-        opacity: 0.5;
-      }
-      
-      .fa-facebook {
-          display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.75em;
-    vertical-align: middle;
-    border-radius: 50%; /* or 50% */
-     background-color: #4267B2;
-    width: auto;
-        font-size: 26px;
-        color: white;
-      }
-      
-      .fa-instagram {
-         display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.5em;
-    vertical-align: middle;
-    border-radius: 50%; /* or 50% */
-     background-color: #8a3ab9;
-    width: auto;
-        
-        background-color: #8a3ab9;
-        color: white;
+.fa {
+  padding: 10px;
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.75em;
+  vertical-align: middle;
+  border-radius: 50%; /* or 50% */
+  background-color: #4267b2;
+  width: auto;
+  font-size: 26px;
+  color: white;
+}
+
+.fa-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5em;
+  vertical-align: middle;
+  border-radius: 50%; /* or 50% */
+  background-color: #8a3ab9;
+  width: auto;
+  color: white;
 }
