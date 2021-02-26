@@ -42,15 +42,6 @@ body {
   float: right;
 }
 
-.no-select {
-  /* not in use here yet, but a class to disable text selection */
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Chrome all / Safari */
-  -moz-user-select: none; /* Firefox all */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none; /* Likely future */
-}
-
 /** Announcement bar **/
 .announcement {
   display: inline-block;
