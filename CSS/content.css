@@ -46,3 +46,15 @@ th {
   width: auto;
   color: white;
 }
+
+p.mobile {
+  display: none;
+}
+@media (max-width: 640px) {
+  p.mobile {
+    display: block;
+  }
+  p.computer {
+    display: none;
+  }
+}
