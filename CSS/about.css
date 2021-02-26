@@ -139,7 +139,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 	
 hr {
-    margin-left: 0;
+    margin-left: 2.5px;
     max-width: 50px;
     color: #3755be !important;
     border-color: #3755be;
