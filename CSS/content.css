@@ -46,7 +46,7 @@ th {
   width: auto;
   color: white;
 }
-
+/* Used for mobile or computer based response is important */
 p.mobile {
   display: none;
 }
