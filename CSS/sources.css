@@ -250,7 +250,8 @@
     text-decoration: none;
     color: #fff !important;
   }
-  fa {
+  
+  .fa {
     padding: 10px;
     font-size: 30px !important;
     text-align: center;
