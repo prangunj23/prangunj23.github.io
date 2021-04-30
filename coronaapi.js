@@ -5,6 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
                num_parts[0] = num_parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                return num_parts.join(".");
              }
+    fetch('https://api.covidactnow.org/v2/country/US.json?apiKey=8719c95c67b9402fa91ad8eb3677078a')
+	.then(response => response.json())
+	.then(data => {
+	     
+	     var vaccineinfo = data;
+	     document.querySelector('.firstdose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsInitiated) + " people";
+	     document.querySelector('.seconddose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsCompleted) + " people";
+         });
    fetch('https://api.covidtracking.com/v1/us/current.json')
       .then(response => response.json())
       .then(data => {
