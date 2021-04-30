@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	.then(response => response.json())
 	.then(data => {
 	     
-	     var vaccineinfo = data;
+	     var vaccineinfo = data[0];
 	     document.querySelector('.firstdose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsInitiated) + " people";
 	     document.querySelector('.seconddose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsCompleted) + " people";
          });
