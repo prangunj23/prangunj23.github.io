@@ -37,3 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	     document.querySelector('.firstdose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsInitiated) + " people";
 	     document.querySelector('.seconddose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsCompleted) + " people";
 });
+});
