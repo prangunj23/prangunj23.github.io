@@ -21,6 +21,5 @@ Medicomm Telecommunications
 
 ### CSS todo list
 - [ ] Make each page responsive...
-- [ ] Add box shadow on what we do cards
 
 
