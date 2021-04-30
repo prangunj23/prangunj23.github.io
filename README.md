@@ -14,7 +14,7 @@ Medicomm Telecommunications
 - [ ] maybe learn more with arrow for hook section
 - [ ] Design Products & Services (with accompanying pages), COVID-19, and contact pages
 - [ ] Vaccination Information
-- [ ] Might redesign the "cards"
+- [ ] Might redesign the "cards" on the homepage?
 
 ### HTML todo list
 
