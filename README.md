@@ -15,6 +15,7 @@ Medicomm Telecommunications
 - [ ] Design Products & Services (with accompanying pages), COVID-19, and contact pages
 - [ ] Vaccination Information
 - [ ] Might redesign the "cards" on the homepage?
+- [ ] Page loader maybe
 
 ### HTML todo list
 
@@ -22,5 +23,7 @@ Medicomm Telecommunications
 
 ### CSS todo list
 - [ ] Make each page responsive...
+- [ ] "Height" for sections is kinda flawed, might need to fix to just padding-bottom
+- [ ] 
 
 
