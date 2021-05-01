@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	.then(response => response.json())
 	.then(data => {
 	     
-	     var vaccineinfo = data[0];
+	     var vaccineinfo = data;
 	     document.querySelector('.firstdose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsInitiated) + " people";
 	     document.querySelector('.seconddose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsCompleted) + " people";
          });
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .then(response => response.json())
       .then(data => {
-         var globalinfo = data;
+         var globalinfo = data[0];
          document.querySelector('.globaldeathsinfo').innerHTML = thousands_separators(globalinfo.deaths) + " people";
          document.querySelector('.globalcasesinfo').innerHTML = thousands_separators(globalinfo.confirmed) + " people";
 });
