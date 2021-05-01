@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      fetch('https://medicomm.org/vaccinations.json')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+      });
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
