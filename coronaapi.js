@@ -5,6 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
                num_parts[0] = num_parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                return num_parts.join(".");
              }
+    fetch('https://medicomm.org/vaccinations.json')
+        .then(response => response.json())
+        .then(data => {
+	    var y = data[199].data.length - 1;
+            document.querySelector('.globalfirstdose').innerHTML = thousands_separators(data[199].data[y].people_vaccinated);
+	    document.querySelector('.globalseconddose').innerHTML = thousands_separators(data[199].data[y].people_fully_vaccinated);
+      });
     fetch('https://api.covidactnow.org/v2/country/US.json?apiKey=8719c95c67b9402fa91ad8eb3677078a')
 	.then(response => response.json())
 	.then(data => {
