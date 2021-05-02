@@ -17,6 +17,7 @@ Medicomm Telecommunications
 - [ ] Might redesign the "cards" on the homepage?
 - [ ] Page loader maybe
 - [ ] Fix the white bottom portion on the Services and Products sections on larger monitors
+- [ ] Adding more responses to the Medicomm Chat Bot
 
 ### HTML todo list
 
