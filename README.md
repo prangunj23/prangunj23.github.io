@@ -16,6 +16,7 @@ Medicomm Telecommunications
 - [ ] Vaccination Information
 - [ ] Might redesign the "cards" on the homepage?
 - [ ] Page loader maybe
+- [ ] Fix the white bottom portion on the Services and Products sections on larger monitors
 
 ### HTML todo list
 
