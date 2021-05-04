@@ -1,4 +1,5 @@
 /** Main **/
+@media (max-width: 1920px) {
 [data-aos="heroimg"] {
   opacity: 0;
   transition-property: opacity, transform;
@@ -614,6 +615,47 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+      .fa {
+          padding: 10px;
+         font-size: 30px;
+        
+         text-align: center;
+      }
+      
+      .fa:hover {
+        text-decoration: none;
+        color: white;
+        opacity: 0.5;
+      }
+      
+      .fa-facebook {
+          display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.75em;
+    vertical-align: middle;
+    border-radius: 50%; /* or 50% */
+     background-color: #4267B2;
+    width: auto;
+        font-size: 26px;
+        color: white;
+      }
+      
+      .fa-instagram {
+         display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.5em;
+    vertical-align: middle;
+    border-radius: 50%; /* or 50% */
+     background-color: #8a3ab9;
+    width: auto;
+        
+        background-color: #8a3ab9;
+        color: white;
+      }
+
 .salutations {
   display: inline-block;
   height: 8%;
@@ -670,7 +712,7 @@ body {
   /** Custom CSS **/
 
   /** End media query bracket**/
-
+}
 /** Responsive Media Queries **/
 @media (max-width: 1199px) {
   .heroheader,
