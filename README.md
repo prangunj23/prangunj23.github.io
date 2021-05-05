@@ -5,7 +5,7 @@ Medicomm Telecommunications
 # asap
 - format code on ALL pages
 - finish espanol page
-- fix products page directories
+- fix espanol products page directories
 - style products and services maybe, different style for contacts maybe
 
 ### General todo list
