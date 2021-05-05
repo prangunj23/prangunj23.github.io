@@ -8,7 +8,7 @@ Medicomm Telecommunications
 - style products and services maybe, different style for contacts maybe
 
 ### General todo list
-
+- [ ] add press page to nav 
 - [ ] Spanish version
 - [ ] Replace what we do card icons
 - [ ] maybe learn more with arrow for hook section
