@@ -255,6 +255,15 @@ body {
   padding-top: 25px;
   padding-bottom: 15px;
 }
+.product-summary-section {
+  font-family: "Inter", sans-serif;
+  height: auto;
+  width: 100% !important;
+  margin: auto;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  }
 .summaryheader {
   padding-top: 5px;
   font-weight: 800;
