@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
                num_parts[0] = num_parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                return num_parts.join(".");
              }
-    fetch('https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/vaccinations.json')
+    fetch('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.json')
         .then(response => response.json())
         .then(data => {
 	    var y = data[199].data.length - 1;
