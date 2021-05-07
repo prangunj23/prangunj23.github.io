@@ -43,15 +43,4 @@ document.addEventListener('DOMContentLoaded', function() {
          document.querySelector('.globaldeathsinfo').innerHTML = thousands_separators(globalinfo.deaths) + " people";
          document.querySelector('.globalcasesinfo').innerHTML = thousands_separators(globalinfo.confirmed) + " people";
 });
-fetch("https://covid-19-data.p.rapidapi.com/totals", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff",
-		"x-rapidapi-host": "covid-19-data.p.rapidapi.com"
-	}
-})
-	.then(response => response.json())
-	.then(data => {
-  	console.log(data);
-  });	
 });
