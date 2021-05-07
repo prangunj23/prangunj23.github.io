@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+      var people = " people";
       function thousands_separators(num)
              {
                var num_parts = num.toString().split(".");
@@ -10,16 +11,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	.then(data => {
 	    
               var y = data[201].data.length - 1;
- 	      document.querySelector('.globalfirstdose').innerHTML = thousands_separators(data[201].data[y].people_vaccinated) + " people";
-	      document.querySelector('.globalseconddose').innerHTML = thousands_separators(data[201].data[y].people_fully_vaccinated) + " people";
+ 	      document.querySelector('.globalfirstdose').innerHTML = thousands_separators(data[201].data[y].people_vaccinated) + people;
+	      document.querySelector('.globalseconddose').innerHTML = thousands_separators(data[201].data[y].people_fully_vaccinated) + people;
 	});
     fetch('https://api.covidactnow.org/v2/country/US.json?apiKey=8719c95c67b9402fa91ad8eb3677078a')
 	.then(response => response.json())
 	.then(data => {
 	     
 	     var vaccineinfo = data;
-	     document.querySelector('.firstdose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsInitiated) + " people";
-	     document.querySelector('.seconddose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsCompleted) + " people";
+	     document.querySelector('.firstdose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsInitiated) + people;
+	     document.querySelector('.seconddose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsCompleted) + people;
 	     
          });
    fetch('https://corona.lmao.ninja/v2/countries?yesterday&sort')
@@ -27,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	.then(data => {
 	
 	   var coronainfo = data[209];
-	   document.querySelector('.coronacasesinfo').innerHTML = thousands_separators(coronainfo.cases) + " people";
-	   document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(coronainfo.deaths) + " people";
+	   document.querySelector('.coronacasesinfo').innerHTML = thousands_separators(coronainfo.cases) + people;
+	   document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(coronainfo.deaths) + people;
 	});
 
    fetch("https://covid-19-data.p.rapidapi.com/totals", {
@@ -41,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(data => {
          var globalinfo = data[0];
-         document.querySelector('.globaldeathsinfo').innerHTML = thousands_separators(globalinfo.deaths) + " people";
-         document.querySelector('.globalcasesinfo').innerHTML = thousands_separators(globalinfo.confirmed) + " people";
+         document.querySelector('.globaldeathsinfo').innerHTML = thousands_separators(globalinfo.deaths) + people;
+         document.querySelector('.globalcasesinfo').innerHTML = thousands_separators(globalinfo.confirmed) + people;
 	});
 });
