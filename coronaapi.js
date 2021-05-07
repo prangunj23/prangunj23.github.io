@@ -5,14 +5,18 @@ document.addEventListener('DOMContentLoaded', function() {
                num_parts[0] = num_parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                return num_parts.join(".");
              }
-    fetch('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.json')
-        .then(response => response.json())
-        .then(data => {
-	    var y = data[199].data.length - 1;
-            document.querySelector('.globalfirstdose').innerHTML = thousands_separators(data[199].data[y].people_vaccinated) + " people";
-	    document.querySelector('.globalseconddose').innerHTML = thousands_separators(data[199].data[y].people_fully_vaccinated) + " people";
-	    
-      });
+    fetch("https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/world", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff",
+		"x-rapidapi-host": "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com"
+		}
+	})
+	.then(response => response.json())
+	.then(data => {
+	    var globalvaccine = data;
+	    document.querySelector('.
+     	 });
     fetch('https://api.covidactnow.org/v2/country/US.json?apiKey=8719c95c67b9402fa91ad8eb3677078a')
 	.then(response => response.json())
 	.then(data => {
