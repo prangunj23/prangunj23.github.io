@@ -22,16 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
 	     document.querySelector('.seconddose').innerHTML = thousands_separators(vaccineinfo.actuals.vaccinationsCompleted) + " people";
 	     
          });
-   fetch('https://api.covidtracking.com/v1/us/current.json')
-      .then(response => response.json())
-      .then(data => {
-         
-          var localinfo = data[0];
-          document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(localinfo.death) + " people";
-          document.querySelector('.coronacasesinfo').innerHTML = thousands_separators(localinfo.positive) + " people";
-          
-       });
-      
+   fetch('https://corona.lmao.ninja/v2/countries?yesterday&sort')
+	.then(response => response.json())
+	.then(data => {
+	
+	   var coronainfo = data[209];
+	   document.querySelector('.coronacasesinfo').innerHTML = thousands_separators(coronainfo.cases) + " people";
+	   document.querySelector('.coronadeathsinfo').innerHTML = thousands_separators(coronainfo.deaths) + " people";
+	});
+
    fetch("https://covid-19-data.p.rapidapi.com/totals", {
 	"method": "GET",
 	"headers": {
