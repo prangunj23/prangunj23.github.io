@@ -1,4 +1,6 @@
 temporary document for some text to copy/paste
+
+### Navbar
 ```
 <header>
     <!-- Announcement bar-->
