@@ -30,3 +30,9 @@ Medicomm Telecommunications
 - [ ] Check overflow for pages
 - [ ] Try to use "rem" units for text, not px ([Pixels to REM converter])(https://nekocalc.com/px-to-rem-converter)
 > Easier for responsive (mobile friendly) design
+
+
+### bugs to fix
+- bootstrap scripts on each spanish page
+- contact footer links on each spanish page
+- recheck navbar links
