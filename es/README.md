@@ -36,3 +36,71 @@ temporary document for some text to copy/paste
     <!-- End Header -->
   </header>
 ```
+
+# Footer
+```
+<section class="footer-section">
+      <footer class="pb-4 bg-primary-3 text-light">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col">
+              <a href="https://medicomm.org/es/">
+                <img src="/assets/images/medicomm-logo.png" alt="Medicomm Logo" class="mb-3 footerimg" />
+              </a>
+              <p><b>Medicomm</b> es una empresa de telecomunicaciones médicas dedicada a la producción de equipos y servicios médicos para todas las empresas, grandes o pequeñas. Únase o asóciese con nosotros hoy</p>
+            </div>
+
+            <div class="col-6 col-lg col-xl-2">
+              <h5 class="fsubhead">Company</h5>
+              <ul class="nav flex-column">
+                <li class="footerlink">
+                  <a href="https://medicomm.org/es/" class="footerlink">Inicio</a>
+                </li>
+                <li class="footerlink">
+                  <a href="https://medicomm.org/es/sobre" class="footerlink">Sobre</a>
+                </li>
+                <li class="footerlink">
+                  <a href="https://medicomm.org/es/productos/" class="footerlink">Productos</a>
+                </li>
+                <li class="footerlink">
+                  <a href="https://medicomm.org/es/servicios/" class="footerlink">Servicios</a>
+                </li>
+                <li class="footerlink">
+                  <a href="https://medicomm.org/es/covid-19/" class="footerlink">COVID-19</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-lg-3">
+              <h5 class="fsubhead">Apoyo</h5>
+
+              <ul class="nav flex-column">
+                <li class="footerlink">
+                  <a href="https://medicomm.org/es/contactos/" class="footerlink">Contactos</a>
+                </li>
+
+                <li class="footerlink">
+                  <a href="https://medicomm.org/es/prensa" class="footerlink">Prensa</a>
+                </li>
+
+                <li class="footerlink">
+                  <a href="https://medicomm.org/" class="footerlink">Inglés</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col col-md-auto text-center">
+              <div class="border-top pt-2">
+                <small class="text-light">Copyright &copy; 2020-2021 Todos los derechos reservados | Medicomm Telecomunicaciones</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <div class="salutations">
+      <p>¡Gracias por su visita! Esperamos volver a verte pronto <span class="wave">👋</span></p>
+    </div>
+
