@@ -33,6 +33,6 @@ Medicomm Telecommunications
 
 
 ### bugs to fix
-- bootstrap scripts on each spanish page
+- bootstrap scripts need to go on each spanish page
 - contact footer links on each spanish page
 - recheck navbar links
