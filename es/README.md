@@ -1,5 +1,5 @@
 temporary document for some text to copy/paste
-
+```
 <header>
     <!-- Announcement bar-->
     <div class="announcement">
@@ -33,3 +33,4 @@ temporary document for some text to copy/paste
     </nav>
     <!-- End Header -->
   </header>
+```
