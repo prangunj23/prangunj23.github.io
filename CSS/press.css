@@ -310,8 +310,7 @@
     font-weight: 600 !important;
     margin: 15px;
   }
-
-  /*** Footer Section ***/
+  
   /*** Footer Section ***/
   .footer-section {
     font-family: "Inter", sans-serif !important;
@@ -348,44 +347,41 @@
   }
 
   .fa {
-    padding: 10px;
-    font-size: 30px;
+  padding: 10px;
+  font-size: 30px !important;
+  text-align: center;
+}
 
-    text-align: center;
-  }
+.fa:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+}
 
-  .fa:hover {
-    text-decoration: none;
-    color: white;
-    opacity: 0.5;
-  }
+.fa-facebook {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.75em;
+  vertical-align: middle;
+  border-radius: 50%; /* or 50% */
+  background-color: #4267b2;
+  width: auto;
+  font-size: 26px !important;
+  color: white;
+}
 
-  .fa-facebook {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.75em;
-    vertical-align: middle;
-    border-radius: 50%; /* or 50% */
-    background-color: #4267b2;
-    width: auto;
-    font-size: 26px;
-    color: white;
-  }
-
-  .fa-instagram {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.5em;
-    vertical-align: middle;
-    border-radius: 50%; /* or 50% */
-    background-color: #8a3ab9;
-    width: auto;
-
-    background-color: #8a3ab9;
-    color: white;
-  }
+.fa-instagram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5em;
+  vertical-align: middle;
+  border-radius: 50%; /* or 50% */
+  background-color: #8a3ab9;
+  width: auto;
+  color: white;
+}
 
   .salutations {
     display: inline-block;
