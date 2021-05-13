@@ -22,7 +22,6 @@ Medicomm Telecommunications
 
 ### CSS todo list
 - [ ] Make each page responsive...
-- [ ] "Height" for sections is kinda flawed, might need to fix to just padding-bottom
 - [ ] Check overflow for pages
 
 
