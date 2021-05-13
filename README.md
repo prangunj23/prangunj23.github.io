@@ -2,11 +2,7 @@
 Medicomm Telecommunications
 
 ---
-# asap
-- format code on ALL pages
-- finish espanol page
-- fix espanol products page directories
-- style products and services maybe, different style for contacts maybe
+
 
 ### General todo list
 - [ ] add press page to nav 
