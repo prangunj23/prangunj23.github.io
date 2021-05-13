@@ -28,7 +28,7 @@ Medicomm Telecommunications
 
 
 ### bugs to fix
-- bootstrap scripts need to go on each spanish page
+- **Bootstrap scripts need to go on each spanish page**
 - **Medicomm logo** for spanish page links to english page, not spanish
 - English press page footers need to be in english, not spanish
 - contact footer links on each spanish page
