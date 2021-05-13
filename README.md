@@ -24,8 +24,7 @@ Medicomm Telecommunications
 - [ ] Make each page responsive...
 - [ ] "Height" for sections is kinda flawed, might need to fix to just padding-bottom
 - [ ] Check overflow for pages
-- [ ] Try to use "rem" units for text, not px [Pixels to REM converter](https://nekocalc.com/px-to-rem-converter)
-> Easier for responsive (mobile friendly) design
+
 
 
 ### bugs to fix
