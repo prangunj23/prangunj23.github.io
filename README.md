@@ -35,7 +35,6 @@ Medicomm Telecommunications
 ### bugs to fix
 - bootstrap scripts need to go on each spanish page
 - **Medicomm logo** for spanish page links to english page, not spanish
-- services navbar doesnt match
-- products links lead to 404; check uppercase file paths, switch to lowercase
+- English press page footers need to be in english, not spanish
 - contact footer links on each spanish page
 - recheck navbar links
