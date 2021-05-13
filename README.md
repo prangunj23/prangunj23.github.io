@@ -9,7 +9,6 @@ Medicomm Telecommunications
 - [ ] Design Products & Services (with accompanying pages), COVID-19, and contact pages
 - [ ] Vaccination Information
 - [ ] Might redesign the "cards" on the homepage?
-- [ ] Page loader maybe
 - [ ] Fix the white bottom portion on the Services and Products sections on larger monitors
 - [ ] Adding more responses to the Medicomm Chat Bot
 
@@ -26,6 +25,5 @@ Medicomm Telecommunications
 ### bugs to fix
 - **Bootstrap scripts need to go on each spanish page**
 - **Medicomm logo** for spanish page links to english page, not spanish
-- English press page footers need to be in english, not spanish
 - contact footer links on each spanish page
 - recheck navbar links
