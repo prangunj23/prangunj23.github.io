@@ -5,10 +5,7 @@ Medicomm Telecommunications
 
 
 ### General todo list
-- [ ] add press page to nav 
-- [ ] Spanish version
 - [ ] Replace what we do card icons
-- [ ] maybe learn more with arrow for hook section
 - [ ] Design Products & Services (with accompanying pages), COVID-19, and contact pages
 - [ ] Vaccination Information
 - [ ] Might redesign the "cards" on the homepage?
