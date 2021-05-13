@@ -17,7 +17,7 @@ Medicomm Telecommunications
 - [ ] Link checker: There are no broken links on the page, verify that you don't have any 404 errors.
 
 ### CSS todo list
-- [ ] Make each page responsive...
+- [ ] Check if each page is mobile friendly
 - [ ] Check overflow for pages
 
 
