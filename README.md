@@ -1,7 +1,6 @@
 # prangunj23.github.io
 Medicomm Telecommunications
 
----
 
 
 ### General todo list
