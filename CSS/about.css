@@ -244,6 +244,10 @@
   .desclink:hover .arrow {
     padding-left: 2px;
   }
+ .navbar-nav {
+    background: #e3e3e3;
+    border-radius: 5px;
+  }
 }
 
 @media (max-width: 768px) {
