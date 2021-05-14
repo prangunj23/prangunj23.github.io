@@ -196,76 +196,7 @@ hr {
     width: 100%;
   }
     
-/*** Footer Section ***/
-.footer-section {
-    font-family: 'Inter', sans-serif !important;
-    height: auto;
-    padding-top: 100px;
-    background: #3755BE;
-    color: #fff;
-    width: 100% !important;
-}
-.fsubhead {
-    font-family: 'Inter', sans-serif;
-    border-bottom: 2px solid #6b8cff;
-    display: inline-block;
-    padding-bottom: 10px;
-}
-.footerlink {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    color: #ccdceb !important;
-    transition: 0.3s;
-}
-    
-.footerlink:hover {
-    text-decoration: none;
-    color: #fff !important;
-    }
-    
-.salutations {
-   display: inline-block;
-   height: 8%;
-   width: 100%;
-   margin: 0;
-   padding-bottom: 40px;
-   padding-top: 15px;
-   background: #2b4294;
-   color: white;
-   text-decoration: none;
-   text-align: center;
-   vertical-align: middle;
-   font-family: 'Inter', sans-serif;
-   font-size: 15px;
-   font-weight: 400;
- }
-    
-.wave {
-  font-size: 18px;
-  vertical-align: bottom;
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
 
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { 
-      transform: rotate( 0.0deg) 
-    }
-
-/** End Media Query**/
-}
 
     
 /** Media Queries **/
@@ -295,21 +226,56 @@ hr {
   padding-left: 2px;
 	}
 }
-@media (max-width: 516px) {
-  .footerimg {
-    width: 400px;
-  }
+  
+  @media (max-width: 768px) {
+  .minihead {
+  text-transform: uppercase !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #3755be;
+  margin-top: 10%;
+  margin-bottom: 25px;
+}
+	
+.h1desc {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 900;
+  font-size: 2.5rem !important;
+  color: black;
 }
 
-@media (max-width: 415px) { 
-  .footerimg {
-    width: 300px;
-  }
+
+    .lastp {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+      max-width: 308px;
+    }
+    
+hr {
+    margin-left: 2.5px;
+    max-width: 50px;
+    color: #3755be !important;
+    border-color: #3755be;
+    border-width: 6px;  
 }
+
+  }
   
-@media (max-width: 403px) {
- .salutations {
-    height: 12%;
-    padding-bottom: 0px;
+  @media (max-width: 403px) { 
+    .resmain {
+      margin-top: 1.5rem;
+    }
+    .respp {
+      margin-top: 2.5rem;
+    }
   }
-}
+  
+   @media (max-width: 368px) { 
+     .desclink {
+      display: none;
+     }
+  }
