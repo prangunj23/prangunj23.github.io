@@ -290,6 +290,9 @@
   .announcement {
     padding-bottom: 50px !important;
   }
+  .mobilenone {
+    display: none;
+  }
 }
 
 @media (max-width: 403px) {
@@ -306,3 +309,4 @@
     display: none;
   }
 }
+
