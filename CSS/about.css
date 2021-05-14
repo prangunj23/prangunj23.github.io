@@ -256,7 +256,11 @@
     margin-top: 10%;
     margin-bottom: 25px;
   }
-
+  
+  #pp-nav {
+    display: none;
+  }
+  
   .h1desc {
     font-family: "Inter", sans-serif !important;
     font-weight: 900;
