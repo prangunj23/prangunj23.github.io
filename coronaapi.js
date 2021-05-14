@@ -9,11 +9,17 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.json')
 	.then(response => response.json())
 	.then(data => {
-	    
-              var y = data[206].data.length - 1;
- 	      document.querySelector('.globalfirstdose').innerHTML = thousands_separators(data[206].data[y].people_vaccinated) + people;
-	      document.querySelector('.globalseconddose').innerHTML = thousands_separators(data[206].data[y].people_fully_vaccinated) + people;
-	});
+	   var x;
+	    for (var i = 0; i < data.length; i++) {
+		if (data[i].iso_code === "OWID_WRL") {
+		    x = i; 
+		}
+	    }
+      	   var y = data[x].data.length - 1;
+    	document.querySelector('.globalfirstdose').innerHTML = thousands_separators(data[x].data[y].people_vaccinated) + people;
+	document.querySelector('.globalseconddose').innerHTML = thousands_separators(data[x].data[y].people_fully_vaccinated) + people;
+    
+    })
     fetch('https://api.covidactnow.org/v2/country/US.json?apiKey=8719c95c67b9402fa91ad8eb3677078a')
 	.then(response => response.json())
 	.then(data => {
