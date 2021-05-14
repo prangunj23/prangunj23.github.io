@@ -22,6 +22,5 @@
 
 ### bugs to fix
 - **Bootstrap scripts need to go on each spanish page**
-- **Medicomm logo** for spanish page links to english page, not spanish
 - contact footer links on each spanish page
 - recheck navbar links
