@@ -291,9 +291,6 @@
 }
 
 @media (max-width: 444px) {
-  .announcement {
-    padding-bottom: 50px !important;
-  }
   .mobilenone {
     display: none;
   }
@@ -301,7 +298,7 @@
 
 @media (max-width: 403px) {
   .resmain {
-    margin-top: 2.5rem;
+    margin-top: 4.5rem;
   }
   .respp {
     margin-top: 2.5rem;
